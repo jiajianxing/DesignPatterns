@@ -26,6 +26,7 @@
 		0833D187223F94DC00C35D94 /* Coke.m in Sources */ = {isa = PBXBuildFile; fileRef = 0833D186223F94DC00C35D94 /* Coke.m */; };
 		0833D18A223F94FC00C35D94 /* Pepsi.m in Sources */ = {isa = PBXBuildFile; fileRef = 0833D189223F94FC00C35D94 /* Pepsi.m */; };
 		0833D18D223F953A00C35D94 /* Meal.m in Sources */ = {isa = PBXBuildFile; fileRef = 0833D18C223F953A00C35D94 /* Meal.m */; };
+		0836CA812240DF0B005F6E8A /* AudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0836CA802240DF0B005F6E8A /* AudioPlayer.m */; };
 		085F5F5D223F382700CCB31A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 085F5F5C223F382700CCB31A /* AppDelegate.m */; };
 		085F5F60223F382700CCB31A /* FactoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 085F5F5F223F382700CCB31A /* FactoryController.m */; };
 		085F5F63223F382700CCB31A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 085F5F61223F382700CCB31A /* Main.storyboard */; };
@@ -66,6 +67,11 @@
 		08A33A5D2240D62D00C19ED7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08A33A5C2240D62D00C19ED7 /* Assets.xcassets */; };
 		08A33A602240D62D00C19ED7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08A33A5E2240D62D00C19ED7 /* LaunchScreen.storyboard */; };
 		08A33A632240D62D00C19ED7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A33A622240D62D00C19ED7 /* main.m */; };
+		08A33A692240DB3900C19ED7 /* MediaPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A33A682240DB3900C19ED7 /* MediaPlayer.m */; };
+		08A33A6D2240DBA500C19ED7 /* AdvanceMediaPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A33A6C2240DBA500C19ED7 /* AdvanceMediaPlayer.m */; };
+		08A33A702240DC0700C19ED7 /* Mp4Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A33A6F2240DC0700C19ED7 /* Mp4Player.m */; };
+		08A33A732240DC6100C19ED7 /* VlcPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A33A722240DC6100C19ED7 /* VlcPlayer.m */; };
+		08A33A772240DCB400C19ED7 /* MediaAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A33A762240DCB400C19ED7 /* MediaAdapter.m */; };
 		08E4B458223F97BC008DA9E0 /* MealBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E4B457223F97BC008DA9E0 /* MealBuilder.m */; };
 /* End PBXBuildFile section */
 
@@ -106,6 +112,8 @@
 		0833D189223F94FC00C35D94 /* Pepsi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pepsi.m; sourceTree = "<group>"; };
 		0833D18B223F953A00C35D94 /* Meal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Meal.h; sourceTree = "<group>"; };
 		0833D18C223F953A00C35D94 /* Meal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Meal.m; sourceTree = "<group>"; };
+		0836CA7F2240DF0B005F6E8A /* AudioPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioPlayer.h; sourceTree = "<group>"; };
+		0836CA802240DF0B005F6E8A /* AudioPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioPlayer.m; sourceTree = "<group>"; };
 		085F5F58223F382700CCB31A /* DesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		085F5F5B223F382700CCB31A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		085F5F5C223F382700CCB31A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -179,6 +187,16 @@
 		08A33A5F2240D62D00C19ED7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		08A33A612240D62D00C19ED7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08A33A622240D62D00C19ED7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		08A33A672240DB3900C19ED7 /* MediaPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MediaPlayer.h; sourceTree = "<group>"; };
+		08A33A682240DB3900C19ED7 /* MediaPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MediaPlayer.m; sourceTree = "<group>"; };
+		08A33A6B2240DBA500C19ED7 /* AdvanceMediaPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdvanceMediaPlayer.h; sourceTree = "<group>"; };
+		08A33A6C2240DBA500C19ED7 /* AdvanceMediaPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdvanceMediaPlayer.m; sourceTree = "<group>"; };
+		08A33A6E2240DC0700C19ED7 /* Mp4Player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mp4Player.h; sourceTree = "<group>"; };
+		08A33A6F2240DC0700C19ED7 /* Mp4Player.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mp4Player.m; sourceTree = "<group>"; };
+		08A33A712240DC6100C19ED7 /* VlcPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VlcPlayer.h; sourceTree = "<group>"; };
+		08A33A722240DC6100C19ED7 /* VlcPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VlcPlayer.m; sourceTree = "<group>"; };
+		08A33A752240DCB400C19ED7 /* MediaAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MediaAdapter.h; sourceTree = "<group>"; };
+		08A33A762240DCB400C19ED7 /* MediaAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MediaAdapter.m; sourceTree = "<group>"; };
 		08E4B456223F97BC008DA9E0 /* MealBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MealBuilder.h; sourceTree = "<group>"; };
 		08E4B457223F97BC008DA9E0 /* MealBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MealBuilder.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -438,6 +456,8 @@
 		08A33A522240D62C00C19ED7 /* AdapterPattern */ = {
 			isa = PBXGroup;
 			children = (
+				08A33A742240DC7D00C19ED7 /* Adapter */,
+				08A33A6A2240DB8000C19ED7 /* Player */,
 				08A33A532240D62C00C19ED7 /* AppDelegate.h */,
 				08A33A542240D62C00C19ED7 /* AppDelegate.m */,
 				08A33A562240D62C00C19ED7 /* AdapterController.h */,
@@ -449,6 +469,32 @@
 				08A33A622240D62D00C19ED7 /* main.m */,
 			);
 			path = AdapterPattern;
+			sourceTree = "<group>";
+		};
+		08A33A6A2240DB8000C19ED7 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				08A33A672240DB3900C19ED7 /* MediaPlayer.h */,
+				08A33A682240DB3900C19ED7 /* MediaPlayer.m */,
+				08A33A6B2240DBA500C19ED7 /* AdvanceMediaPlayer.h */,
+				08A33A6C2240DBA500C19ED7 /* AdvanceMediaPlayer.m */,
+				08A33A6E2240DC0700C19ED7 /* Mp4Player.h */,
+				08A33A6F2240DC0700C19ED7 /* Mp4Player.m */,
+				08A33A712240DC6100C19ED7 /* VlcPlayer.h */,
+				08A33A722240DC6100C19ED7 /* VlcPlayer.m */,
+				0836CA7F2240DF0B005F6E8A /* AudioPlayer.h */,
+				0836CA802240DF0B005F6E8A /* AudioPlayer.m */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		08A33A742240DC7D00C19ED7 /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				08A33A752240DCB400C19ED7 /* MediaAdapter.h */,
+				08A33A762240DCB400C19ED7 /* MediaAdapter.m */,
+			);
+			path = Adapter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -716,8 +762,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08A33A6D2240DBA500C19ED7 /* AdvanceMediaPlayer.m in Sources */,
+				0836CA812240DF0B005F6E8A /* AudioPlayer.m in Sources */,
 				08A33A582240D62C00C19ED7 /* AdapterController.m in Sources */,
+				08A33A772240DCB400C19ED7 /* MediaAdapter.m in Sources */,
+				08A33A692240DB3900C19ED7 /* MediaPlayer.m in Sources */,
 				08A33A632240D62D00C19ED7 /* main.m in Sources */,
+				08A33A732240DC6100C19ED7 /* VlcPlayer.m in Sources */,
+				08A33A702240DC0700C19ED7 /* Mp4Player.m in Sources */,
 				08A33A552240D62C00C19ED7 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

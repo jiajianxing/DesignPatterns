@@ -6,7 +6,8 @@
 //  Copyright © 2019年 GTYK. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "AdapterController.h"
+#import "AudioPlayer.h"
 
 @interface AdapterController ()
 
@@ -16,6 +17,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    AudioPlayer *player = [[AudioPlayer alloc] init];
+    [player play:AudioTypeVLC fileName:@"123.vlc"];
+    [player play:AudioTypeMP4 fileName:@"你好.MP4"];
+    [player play:AudioTypeMP3 fileName:@"far.mp3"];
 
 }
 
