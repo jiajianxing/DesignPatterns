@@ -72,6 +72,18 @@
 		08A33A702240DC0700C19ED7 /* Mp4Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A33A6F2240DC0700C19ED7 /* Mp4Player.m */; };
 		08A33A732240DC6100C19ED7 /* VlcPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A33A722240DC6100C19ED7 /* VlcPlayer.m */; };
 		08A33A772240DCB400C19ED7 /* MediaAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A33A762240DCB400C19ED7 /* MediaAdapter.m */; };
+		08A72ACE224230F9004A8600 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A72ACD224230F9004A8600 /* AppDelegate.m */; };
+		08A72AD1224230F9004A8600 /* BridgeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A72AD0224230F9004A8600 /* BridgeController.m */; };
+		08A72AD4224230F9004A8600 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08A72AD2224230F9004A8600 /* Main.storyboard */; };
+		08A72AD6224230FD004A8600 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08A72AD5224230FD004A8600 /* Assets.xcassets */; };
+		08A72AD9224230FD004A8600 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08A72AD7224230FD004A8600 /* LaunchScreen.storyboard */; };
+		08A72ADC224230FD004A8600 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A72ADB224230FD004A8600 /* main.m */; };
+		08A72AE322423179004A8600 /* MessageImplementor.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A72AE222423179004A8600 /* MessageImplementor.m */; };
+		08A72AE7224231D9004A8600 /* AbstractMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A72AE6224231D9004A8600 /* AbstractMessage.m */; };
+		08A72AEA224232BE004A8600 /* MessageSMS.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A72AE9224232BE004A8600 /* MessageSMS.m */; };
+		08A72AED2242330D004A8600 /* MessageEmail.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A72AEC2242330D004A8600 /* MessageEmail.m */; };
+		08A72AF022423337004A8600 /* CommonMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A72AEF22423337004A8600 /* CommonMessage.m */; };
+		08A72AF3224233BC004A8600 /* UrgencyMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A72AF2224233BC004A8600 /* UrgencyMessage.m */; };
 		08E4B458223F97BC008DA9E0 /* MealBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E4B457223F97BC008DA9E0 /* MealBuilder.m */; };
 /* End PBXBuildFile section */
 
@@ -197,6 +209,28 @@
 		08A33A722240DC6100C19ED7 /* VlcPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VlcPlayer.m; sourceTree = "<group>"; };
 		08A33A752240DCB400C19ED7 /* MediaAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MediaAdapter.h; sourceTree = "<group>"; };
 		08A33A762240DCB400C19ED7 /* MediaAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MediaAdapter.m; sourceTree = "<group>"; };
+		08A72ACA224230F9004A8600 /* BridgePattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BridgePattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08A72ACC224230F9004A8600 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		08A72ACD224230F9004A8600 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		08A72ACF224230F9004A8600 /* BridgeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgeController.h; sourceTree = "<group>"; };
+		08A72AD0224230F9004A8600 /* BridgeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BridgeController.m; sourceTree = "<group>"; };
+		08A72AD3224230F9004A8600 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		08A72AD5224230FD004A8600 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		08A72AD8224230FD004A8600 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		08A72ADA224230FD004A8600 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08A72ADB224230FD004A8600 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		08A72AE122423179004A8600 /* MessageImplementor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageImplementor.h; sourceTree = "<group>"; };
+		08A72AE222423179004A8600 /* MessageImplementor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageImplementor.m; sourceTree = "<group>"; };
+		08A72AE5224231D9004A8600 /* AbstractMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractMessage.h; sourceTree = "<group>"; };
+		08A72AE6224231D9004A8600 /* AbstractMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractMessage.m; sourceTree = "<group>"; };
+		08A72AE8224232BE004A8600 /* MessageSMS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageSMS.h; sourceTree = "<group>"; };
+		08A72AE9224232BE004A8600 /* MessageSMS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageSMS.m; sourceTree = "<group>"; };
+		08A72AEB2242330D004A8600 /* MessageEmail.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageEmail.h; sourceTree = "<group>"; };
+		08A72AEC2242330D004A8600 /* MessageEmail.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageEmail.m; sourceTree = "<group>"; };
+		08A72AEE22423337004A8600 /* CommonMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonMessage.h; sourceTree = "<group>"; };
+		08A72AEF22423337004A8600 /* CommonMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonMessage.m; sourceTree = "<group>"; };
+		08A72AF1224233BC004A8600 /* UrgencyMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UrgencyMessage.h; sourceTree = "<group>"; };
+		08A72AF2224233BC004A8600 /* UrgencyMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UrgencyMessage.m; sourceTree = "<group>"; };
 		08E4B456223F97BC008DA9E0 /* MealBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MealBuilder.h; sourceTree = "<group>"; };
 		08E4B457223F97BC008DA9E0 /* MealBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MealBuilder.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -231,6 +265,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		08A33A4E2240D62C00C19ED7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08A72AC7224230F9004A8600 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -312,6 +353,7 @@
 				0833D155223F8B0400C35D94 /* BuilderPattern */,
 				0891D3F52240885600AAE2A1 /* PrototypePattern */,
 				08A33A522240D62C00C19ED7 /* AdapterPattern */,
+				08A72ACB224230F9004A8600 /* BridgePattern */,
 				085F5F59223F382700CCB31A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -324,6 +366,7 @@
 				0833D154223F8B0400C35D94 /* BuilderPattern.app */,
 				0891D3F42240885600AAE2A1 /* PrototypePattern.app */,
 				08A33A512240D62C00C19ED7 /* AdapterPattern.app */,
+				08A72ACA224230F9004A8600 /* BridgePattern.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -456,8 +499,7 @@
 		08A33A522240D62C00C19ED7 /* AdapterPattern */ = {
 			isa = PBXGroup;
 			children = (
-				08A33A742240DC7D00C19ED7 /* Adapter */,
-				08A33A6A2240DB8000C19ED7 /* Player */,
+				08A72AC5224213EC004A8600 /* ClassAdapter */,
 				08A33A532240D62C00C19ED7 /* AppDelegate.h */,
 				08A33A542240D62C00C19ED7 /* AppDelegate.m */,
 				08A33A562240D62C00C19ED7 /* AdapterController.h */,
@@ -495,6 +537,59 @@
 				08A33A762240DCB400C19ED7 /* MediaAdapter.m */,
 			);
 			path = Adapter;
+			sourceTree = "<group>";
+		};
+		08A72AC5224213EC004A8600 /* ClassAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				08A33A742240DC7D00C19ED7 /* Adapter */,
+				08A33A6A2240DB8000C19ED7 /* Player */,
+			);
+			path = ClassAdapter;
+			sourceTree = "<group>";
+		};
+		08A72ACB224230F9004A8600 /* BridgePattern */ = {
+			isa = PBXGroup;
+			children = (
+				08A72AE4224231BA004A8600 /* Object */,
+				08A72AE02242314D004A8600 /* Implementor */,
+				08A72ACC224230F9004A8600 /* AppDelegate.h */,
+				08A72ACD224230F9004A8600 /* AppDelegate.m */,
+				08A72ACF224230F9004A8600 /* BridgeController.h */,
+				08A72AD0224230F9004A8600 /* BridgeController.m */,
+				08A72AD2224230F9004A8600 /* Main.storyboard */,
+				08A72AD5224230FD004A8600 /* Assets.xcassets */,
+				08A72AD7224230FD004A8600 /* LaunchScreen.storyboard */,
+				08A72ADA224230FD004A8600 /* Info.plist */,
+				08A72ADB224230FD004A8600 /* main.m */,
+			);
+			path = BridgePattern;
+			sourceTree = "<group>";
+		};
+		08A72AE02242314D004A8600 /* Implementor */ = {
+			isa = PBXGroup;
+			children = (
+				08A72AE122423179004A8600 /* MessageImplementor.h */,
+				08A72AE222423179004A8600 /* MessageImplementor.m */,
+				08A72AE8224232BE004A8600 /* MessageSMS.h */,
+				08A72AE9224232BE004A8600 /* MessageSMS.m */,
+				08A72AEB2242330D004A8600 /* MessageEmail.h */,
+				08A72AEC2242330D004A8600 /* MessageEmail.m */,
+			);
+			path = Implementor;
+			sourceTree = "<group>";
+		};
+		08A72AE4224231BA004A8600 /* Object */ = {
+			isa = PBXGroup;
+			children = (
+				08A72AE5224231D9004A8600 /* AbstractMessage.h */,
+				08A72AE6224231D9004A8600 /* AbstractMessage.m */,
+				08A72AEE22423337004A8600 /* CommonMessage.h */,
+				08A72AEF22423337004A8600 /* CommonMessage.m */,
+				08A72AF1224233BC004A8600 /* UrgencyMessage.h */,
+				08A72AF2224233BC004A8600 /* UrgencyMessage.m */,
+			);
+			path = Object;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -585,6 +680,23 @@
 			productReference = 08A33A512240D62C00C19ED7 /* AdapterPattern.app */;
 			productType = "com.apple.product-type.application";
 		};
+		08A72AC9224230F9004A8600 /* BridgePattern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08A72ADD224230FD004A8600 /* Build configuration list for PBXNativeTarget "BridgePattern" */;
+			buildPhases = (
+				08A72AC6224230F9004A8600 /* Sources */,
+				08A72AC7224230F9004A8600 /* Frameworks */,
+				08A72AC8224230F9004A8600 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BridgePattern;
+			productName = BridgePattern;
+			productReference = 08A72ACA224230F9004A8600 /* BridgePattern.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -610,6 +722,9 @@
 					08A33A502240D62C00C19ED7 = {
 						CreatedOnToolsVersion = 10.1;
 					};
+					08A72AC9224230F9004A8600 = {
+						CreatedOnToolsVersion = 10.1;
+					};
 				};
 			};
 			buildConfigurationList = 085F5F53223F382700CCB31A /* Build configuration list for PBXProject "DesignPatterns" */;
@@ -630,6 +745,7 @@
 				0833D153223F8B0400C35D94 /* BuilderPattern */,
 				0891D3F32240885600AAE2A1 /* PrototypePattern */,
 				08A33A502240D62C00C19ED7 /* AdapterPattern */,
+				08A72AC9224230F9004A8600 /* BridgePattern */,
 			);
 		};
 /* End PBXProject section */
@@ -682,6 +798,16 @@
 				08A33A602240D62D00C19ED7 /* LaunchScreen.storyboard in Resources */,
 				08A33A5D2240D62D00C19ED7 /* Assets.xcassets in Resources */,
 				08A33A5B2240D62C00C19ED7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08A72AC8224230F9004A8600 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08A72AD9224230FD004A8600 /* LaunchScreen.storyboard in Resources */,
+				08A72AD6224230FD004A8600 /* Assets.xcassets in Resources */,
+				08A72AD4224230F9004A8600 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -774,6 +900,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		08A72AC6224230F9004A8600 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08A72AF022423337004A8600 /* CommonMessage.m in Sources */,
+				08A72AE7224231D9004A8600 /* AbstractMessage.m in Sources */,
+				08A72AED2242330D004A8600 /* MessageEmail.m in Sources */,
+				08A72AE322423179004A8600 /* MessageImplementor.m in Sources */,
+				08A72AD1224230F9004A8600 /* BridgeController.m in Sources */,
+				08A72AF3224233BC004A8600 /* UrgencyMessage.m in Sources */,
+				08A72AEA224232BE004A8600 /* MessageSMS.m in Sources */,
+				08A72ADC224230FD004A8600 /* main.m in Sources */,
+				08A72ACE224230F9004A8600 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -853,6 +995,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				08A33A5F2240D62D00C19ED7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		08A72AD2224230F9004A8600 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08A72AD3224230F9004A8600 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		08A72AD7224230FD004A8600 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08A72AD8224230FD004A8600 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -1132,6 +1290,38 @@
 			};
 			name = Release;
 		};
+		08A72ADE224230FD004A8600 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BridgePattern/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zuhe.BridgePattern;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		08A72ADF224230FD004A8600 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BridgePattern/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zuhe.BridgePattern;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1185,6 +1375,15 @@
 			buildConfigurations = (
 				08A33A652240D62D00C19ED7 /* Debug */,
 				08A33A662240D62D00C19ED7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08A72ADD224230FD004A8600 /* Build configuration list for PBXNativeTarget "BridgePattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08A72ADE224230FD004A8600 /* Debug */,
+				08A72ADF224230FD004A8600 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
