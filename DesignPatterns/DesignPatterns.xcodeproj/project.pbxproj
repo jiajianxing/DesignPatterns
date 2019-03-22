@@ -85,6 +85,18 @@
 		08A72AF022423337004A8600 /* CommonMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A72AEF22423337004A8600 /* CommonMessage.m */; };
 		08A72AF3224233BC004A8600 /* UrgencyMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A72AF2224233BC004A8600 /* UrgencyMessage.m */; };
 		08E4B458223F97BC008DA9E0 /* MealBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E4B457223F97BC008DA9E0 /* MealBuilder.m */; };
+		08F7F1E42243936E007D4021 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F7F1E32243936E007D4021 /* AppDelegate.m */; };
+		08F7F1E72243936E007D4021 /* FilterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F7F1E62243936E007D4021 /* FilterController.m */; };
+		08F7F1EA2243936E007D4021 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08F7F1E82243936E007D4021 /* Main.storyboard */; };
+		08F7F1EC22439370007D4021 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08F7F1EB22439370007D4021 /* Assets.xcassets */; };
+		08F7F1EF22439370007D4021 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08F7F1ED22439370007D4021 /* LaunchScreen.storyboard */; };
+		08F7F1F222439370007D4021 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F7F1F122439370007D4021 /* main.m */; };
+		08F7F1F8224393A0007D4021 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F7F1F7224393A0007D4021 /* Person.m */; };
+		08F7F1FB22439403007D4021 /* Filter.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F7F1FA22439403007D4021 /* Filter.m */; };
+		08F7F1FF22439608007D4021 /* MenFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F7F1FE22439608007D4021 /* MenFilter.m */; };
+		08F7F20222439736007D4021 /* WomenFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F7F20122439736007D4021 /* WomenFilter.m */; };
+		08F7F2052243981F007D4021 /* SingleFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F7F2042243981F007D4021 /* SingleFilter.m */; };
+		08F7F2082243984C007D4021 /* AndFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F7F2072243984C007D4021 /* AndFilter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -233,6 +245,28 @@
 		08A72AF2224233BC004A8600 /* UrgencyMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UrgencyMessage.m; sourceTree = "<group>"; };
 		08E4B456223F97BC008DA9E0 /* MealBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MealBuilder.h; sourceTree = "<group>"; };
 		08E4B457223F97BC008DA9E0 /* MealBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MealBuilder.m; sourceTree = "<group>"; };
+		08F7F1E02243936E007D4021 /* FilterPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FilterPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08F7F1E22243936E007D4021 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		08F7F1E32243936E007D4021 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		08F7F1E52243936E007D4021 /* FilterController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FilterController.h; sourceTree = "<group>"; };
+		08F7F1E62243936E007D4021 /* FilterController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FilterController.m; sourceTree = "<group>"; };
+		08F7F1E92243936E007D4021 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		08F7F1EB22439370007D4021 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		08F7F1EE22439370007D4021 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		08F7F1F022439370007D4021 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08F7F1F122439370007D4021 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		08F7F1F6224393A0007D4021 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		08F7F1F7224393A0007D4021 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		08F7F1F922439403007D4021 /* Filter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Filter.h; sourceTree = "<group>"; };
+		08F7F1FA22439403007D4021 /* Filter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Filter.m; sourceTree = "<group>"; };
+		08F7F1FD22439608007D4021 /* MenFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenFilter.h; sourceTree = "<group>"; };
+		08F7F1FE22439608007D4021 /* MenFilter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenFilter.m; sourceTree = "<group>"; };
+		08F7F20022439736007D4021 /* WomenFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WomenFilter.h; sourceTree = "<group>"; };
+		08F7F20122439736007D4021 /* WomenFilter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WomenFilter.m; sourceTree = "<group>"; };
+		08F7F2032243981F007D4021 /* SingleFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SingleFilter.h; sourceTree = "<group>"; };
+		08F7F2042243981F007D4021 /* SingleFilter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingleFilter.m; sourceTree = "<group>"; };
+		08F7F2062243984B007D4021 /* AndFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AndFilter.h; sourceTree = "<group>"; };
+		08F7F2072243984C007D4021 /* AndFilter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AndFilter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -272,6 +306,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		08A72AC7224230F9004A8600 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08F7F1DD2243936E007D4021 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -354,6 +395,7 @@
 				0891D3F52240885600AAE2A1 /* PrototypePattern */,
 				08A33A522240D62C00C19ED7 /* AdapterPattern */,
 				08A72ACB224230F9004A8600 /* BridgePattern */,
+				08F7F1E12243936E007D4021 /* FilterPattern */,
 				085F5F59223F382700CCB31A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -367,6 +409,7 @@
 				0891D3F42240885600AAE2A1 /* PrototypePattern.app */,
 				08A33A512240D62C00C19ED7 /* AdapterPattern.app */,
 				08A72ACA224230F9004A8600 /* BridgePattern.app */,
+				08F7F1E02243936E007D4021 /* FilterPattern.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -592,6 +635,42 @@
 			path = Object;
 			sourceTree = "<group>";
 		};
+		08F7F1E12243936E007D4021 /* FilterPattern */ = {
+			isa = PBXGroup;
+			children = (
+				08F7F1FC224395EF007D4021 /* Filter */,
+				08F7F1E22243936E007D4021 /* AppDelegate.h */,
+				08F7F1E32243936E007D4021 /* AppDelegate.m */,
+				08F7F1E52243936E007D4021 /* FilterController.h */,
+				08F7F1E62243936E007D4021 /* FilterController.m */,
+				08F7F1F6224393A0007D4021 /* Person.h */,
+				08F7F1F7224393A0007D4021 /* Person.m */,
+				08F7F1E82243936E007D4021 /* Main.storyboard */,
+				08F7F1EB22439370007D4021 /* Assets.xcassets */,
+				08F7F1ED22439370007D4021 /* LaunchScreen.storyboard */,
+				08F7F1F022439370007D4021 /* Info.plist */,
+				08F7F1F122439370007D4021 /* main.m */,
+			);
+			path = FilterPattern;
+			sourceTree = "<group>";
+		};
+		08F7F1FC224395EF007D4021 /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+				08F7F1F922439403007D4021 /* Filter.h */,
+				08F7F1FA22439403007D4021 /* Filter.m */,
+				08F7F1FD22439608007D4021 /* MenFilter.h */,
+				08F7F1FE22439608007D4021 /* MenFilter.m */,
+				08F7F20022439736007D4021 /* WomenFilter.h */,
+				08F7F20122439736007D4021 /* WomenFilter.m */,
+				08F7F2032243981F007D4021 /* SingleFilter.h */,
+				08F7F2042243981F007D4021 /* SingleFilter.m */,
+				08F7F2062243984B007D4021 /* AndFilter.h */,
+				08F7F2072243984C007D4021 /* AndFilter.m */,
+			);
+			path = Filter;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -697,6 +776,23 @@
 			productReference = 08A72ACA224230F9004A8600 /* BridgePattern.app */;
 			productType = "com.apple.product-type.application";
 		};
+		08F7F1DF2243936E007D4021 /* FilterPattern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08F7F1F522439370007D4021 /* Build configuration list for PBXNativeTarget "FilterPattern" */;
+			buildPhases = (
+				08F7F1DC2243936E007D4021 /* Sources */,
+				08F7F1DD2243936E007D4021 /* Frameworks */,
+				08F7F1DE2243936E007D4021 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FilterPattern;
+			productName = FilterPattern;
+			productReference = 08F7F1E02243936E007D4021 /* FilterPattern.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -725,6 +821,9 @@
 					08A72AC9224230F9004A8600 = {
 						CreatedOnToolsVersion = 10.1;
 					};
+					08F7F1DF2243936E007D4021 = {
+						CreatedOnToolsVersion = 10.1;
+					};
 				};
 			};
 			buildConfigurationList = 085F5F53223F382700CCB31A /* Build configuration list for PBXProject "DesignPatterns" */;
@@ -746,6 +845,7 @@
 				0891D3F32240885600AAE2A1 /* PrototypePattern */,
 				08A33A502240D62C00C19ED7 /* AdapterPattern */,
 				08A72AC9224230F9004A8600 /* BridgePattern */,
+				08F7F1DF2243936E007D4021 /* FilterPattern */,
 			);
 		};
 /* End PBXProject section */
@@ -808,6 +908,16 @@
 				08A72AD9224230FD004A8600 /* LaunchScreen.storyboard in Resources */,
 				08A72AD6224230FD004A8600 /* Assets.xcassets in Resources */,
 				08A72AD4224230F9004A8600 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08F7F1DE2243936E007D4021 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08F7F1EF22439370007D4021 /* LaunchScreen.storyboard in Resources */,
+				08F7F1EC22439370007D4021 /* Assets.xcassets in Resources */,
+				08F7F1EA2243936E007D4021 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -916,6 +1026,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		08F7F1DC2243936E007D4021 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08F7F1FF22439608007D4021 /* MenFilter.m in Sources */,
+				08F7F2052243981F007D4021 /* SingleFilter.m in Sources */,
+				08F7F2082243984C007D4021 /* AndFilter.m in Sources */,
+				08F7F1E72243936E007D4021 /* FilterController.m in Sources */,
+				08F7F20222439736007D4021 /* WomenFilter.m in Sources */,
+				08F7F1F222439370007D4021 /* main.m in Sources */,
+				08F7F1F8224393A0007D4021 /* Person.m in Sources */,
+				08F7F1E42243936E007D4021 /* AppDelegate.m in Sources */,
+				08F7F1FB22439403007D4021 /* Filter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -1011,6 +1137,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				08A72AD8224230FD004A8600 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		08F7F1E82243936E007D4021 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08F7F1E92243936E007D4021 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		08F7F1ED22439370007D4021 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08F7F1EE22439370007D4021 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -1322,6 +1464,38 @@
 			};
 			name = Release;
 		};
+		08F7F1F322439370007D4021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FilterPattern/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zuhe.FilterPattern;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		08F7F1F422439370007D4021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FilterPattern/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zuhe.FilterPattern;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1384,6 +1558,15 @@
 			buildConfigurations = (
 				08A72ADE224230FD004A8600 /* Debug */,
 				08A72ADF224230FD004A8600 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08F7F1F522439370007D4021 /* Build configuration list for PBXNativeTarget "FilterPattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08F7F1F322439370007D4021 /* Debug */,
+				08F7F1F422439370007D4021 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
