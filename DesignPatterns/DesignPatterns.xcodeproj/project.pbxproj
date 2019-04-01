@@ -27,6 +27,15 @@
 		0833D18A223F94FC00C35D94 /* Pepsi.m in Sources */ = {isa = PBXBuildFile; fileRef = 0833D189223F94FC00C35D94 /* Pepsi.m */; };
 		0833D18D223F953A00C35D94 /* Meal.m in Sources */ = {isa = PBXBuildFile; fileRef = 0833D18C223F953A00C35D94 /* Meal.m */; };
 		0836CA812240DF0B005F6E8A /* AudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0836CA802240DF0B005F6E8A /* AudioPlayer.m */; };
+		084B077A2244B53A00C2E028 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 084B07792244B53A00C2E028 /* AppDelegate.m */; };
+		084B077D2244B53A00C2E028 /* CompositeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 084B077C2244B53A00C2E028 /* CompositeController.m */; };
+		084B07802244B53A00C2E028 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 084B077E2244B53A00C2E028 /* Main.storyboard */; };
+		084B07822244B53C00C2E028 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 084B07812244B53C00C2E028 /* Assets.xcassets */; };
+		084B07852244B53C00C2E028 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 084B07832244B53C00C2E028 /* LaunchScreen.storyboard */; };
+		084B07882244B53C00C2E028 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 084B07872244B53C00C2E028 /* main.m */; };
+		085CD0CF224CB2DB00539816 /* Component.m in Sources */ = {isa = PBXBuildFile; fileRef = 085CD0CE224CB2DB00539816 /* Component.m */; };
+		085CD0D2224CB78B00539816 /* Leaf.m in Sources */ = {isa = PBXBuildFile; fileRef = 085CD0D1224CB78A00539816 /* Leaf.m */; };
+		085CD0D5224CB86000539816 /* Composite.m in Sources */ = {isa = PBXBuildFile; fileRef = 085CD0D4224CB86000539816 /* Composite.m */; };
 		085F5F5D223F382700CCB31A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 085F5F5C223F382700CCB31A /* AppDelegate.m */; };
 		085F5F60223F382700CCB31A /* FactoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 085F5F5F223F382700CCB31A /* FactoryController.m */; };
 		085F5F63223F382700CCB31A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 085F5F61223F382700CCB31A /* Main.storyboard */; };
@@ -138,6 +147,22 @@
 		0833D18C223F953A00C35D94 /* Meal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Meal.m; sourceTree = "<group>"; };
 		0836CA7F2240DF0B005F6E8A /* AudioPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioPlayer.h; sourceTree = "<group>"; };
 		0836CA802240DF0B005F6E8A /* AudioPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioPlayer.m; sourceTree = "<group>"; };
+		084B07762244B53A00C2E028 /* CompositePattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CompositePattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		084B07782244B53A00C2E028 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		084B07792244B53A00C2E028 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		084B077B2244B53A00C2E028 /* CompositeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CompositeController.h; sourceTree = "<group>"; };
+		084B077C2244B53A00C2E028 /* CompositeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CompositeController.m; sourceTree = "<group>"; };
+		084B077F2244B53A00C2E028 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		084B07812244B53C00C2E028 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		084B07842244B53C00C2E028 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		084B07862244B53C00C2E028 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		084B07872244B53C00C2E028 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		085CD0CD224CB2DB00539816 /* Component.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Component.h; sourceTree = "<group>"; };
+		085CD0CE224CB2DB00539816 /* Component.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Component.m; sourceTree = "<group>"; };
+		085CD0D0224CB78A00539816 /* Leaf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Leaf.h; sourceTree = "<group>"; };
+		085CD0D1224CB78A00539816 /* Leaf.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Leaf.m; sourceTree = "<group>"; };
+		085CD0D3224CB86000539816 /* Composite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Composite.h; sourceTree = "<group>"; };
+		085CD0D4224CB86000539816 /* Composite.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Composite.m; sourceTree = "<group>"; };
 		085F5F58223F382700CCB31A /* DesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		085F5F5B223F382700CCB31A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		085F5F5C223F382700CCB31A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -277,6 +302,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		084B07732244B53A00C2E028 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		085F5F55223F382700CCB31A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -386,6 +418,28 @@
 			path = Item;
 			sourceTree = "<group>";
 		};
+		084B07772244B53A00C2E028 /* CompositePattern */ = {
+			isa = PBXGroup;
+			children = (
+				084B07782244B53A00C2E028 /* AppDelegate.h */,
+				084B07792244B53A00C2E028 /* AppDelegate.m */,
+				084B077B2244B53A00C2E028 /* CompositeController.h */,
+				084B077C2244B53A00C2E028 /* CompositeController.m */,
+				085CD0CD224CB2DB00539816 /* Component.h */,
+				085CD0CE224CB2DB00539816 /* Component.m */,
+				085CD0D0224CB78A00539816 /* Leaf.h */,
+				085CD0D1224CB78A00539816 /* Leaf.m */,
+				085CD0D3224CB86000539816 /* Composite.h */,
+				085CD0D4224CB86000539816 /* Composite.m */,
+				084B077E2244B53A00C2E028 /* Main.storyboard */,
+				084B07812244B53C00C2E028 /* Assets.xcassets */,
+				084B07832244B53C00C2E028 /* LaunchScreen.storyboard */,
+				084B07862244B53C00C2E028 /* Info.plist */,
+				084B07872244B53C00C2E028 /* main.m */,
+			);
+			path = CompositePattern;
+			sourceTree = "<group>";
+		};
 		085F5F4F223F382700CCB31A = {
 			isa = PBXGroup;
 			children = (
@@ -396,6 +450,7 @@
 				08A33A522240D62C00C19ED7 /* AdapterPattern */,
 				08A72ACB224230F9004A8600 /* BridgePattern */,
 				08F7F1E12243936E007D4021 /* FilterPattern */,
+				084B07772244B53A00C2E028 /* CompositePattern */,
 				085F5F59223F382700CCB31A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -410,6 +465,7 @@
 				08A33A512240D62C00C19ED7 /* AdapterPattern.app */,
 				08A72ACA224230F9004A8600 /* BridgePattern.app */,
 				08F7F1E02243936E007D4021 /* FilterPattern.app */,
+				084B07762244B53A00C2E028 /* CompositePattern.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -691,6 +747,23 @@
 			productReference = 0833D154223F8B0400C35D94 /* BuilderPattern.app */;
 			productType = "com.apple.product-type.application";
 		};
+		084B07752244B53A00C2E028 /* CompositePattern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 084B078B2244B53C00C2E028 /* Build configuration list for PBXNativeTarget "CompositePattern" */;
+			buildPhases = (
+				084B07722244B53A00C2E028 /* Sources */,
+				084B07732244B53A00C2E028 /* Frameworks */,
+				084B07742244B53A00C2E028 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CompositePattern;
+			productName = CompositePattern;
+			productReference = 084B07762244B53A00C2E028 /* CompositePattern.app */;
+			productType = "com.apple.product-type.application";
+		};
 		085F5F57223F382700CCB31A /* DesignPatterns */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 085F5F6E223F382A00CCB31A /* Build configuration list for PBXNativeTarget "DesignPatterns" */;
@@ -806,6 +879,9 @@
 					0833D153223F8B0400C35D94 = {
 						CreatedOnToolsVersion = 10.1;
 					};
+					084B07752244B53A00C2E028 = {
+						CreatedOnToolsVersion = 10.1;
+					};
 					085F5F57223F382700CCB31A = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -846,6 +922,7 @@
 				08A33A502240D62C00C19ED7 /* AdapterPattern */,
 				08A72AC9224230F9004A8600 /* BridgePattern */,
 				08F7F1DF2243936E007D4021 /* FilterPattern */,
+				084B07752244B53A00C2E028 /* CompositePattern */,
 			);
 		};
 /* End PBXProject section */
@@ -858,6 +935,16 @@
 				0833D163223F8B0600C35D94 /* LaunchScreen.storyboard in Resources */,
 				0833D160223F8B0600C35D94 /* Assets.xcassets in Resources */,
 				0833D15E223F8B0400C35D94 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		084B07742244B53A00C2E028 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				084B07852244B53C00C2E028 /* LaunchScreen.storyboard in Resources */,
+				084B07822244B53C00C2E028 /* Assets.xcassets in Resources */,
+				084B07802244B53A00C2E028 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -943,6 +1030,19 @@
 				0833D166223F8B0600C35D94 /* main.m in Sources */,
 				0833D178223F933F00C35D94 /* Item.m in Sources */,
 				0833D158223F8B0400C35D94 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		084B07722244B53A00C2E028 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				085CD0D2224CB78B00539816 /* Leaf.m in Sources */,
+				084B077D2244B53A00C2E028 /* CompositeController.m in Sources */,
+				085CD0CF224CB2DB00539816 /* Component.m in Sources */,
+				085CD0D5224CB86000539816 /* Composite.m in Sources */,
+				084B07882244B53C00C2E028 /* main.m in Sources */,
+				084B077A2244B53A00C2E028 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1057,6 +1157,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				0833D162223F8B0600C35D94 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		084B077E2244B53A00C2E028 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				084B077F2244B53A00C2E028 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		084B07832244B53C00C2E028 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				084B07842244B53C00C2E028 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -1187,6 +1303,38 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zuhe.BuilderPattern;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		084B07892244B53C00C2E028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CompositePattern/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zuhe.CompositePattern;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		084B078A2244B53C00C2E028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CompositePattern/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zuhe.CompositePattern;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1504,6 +1652,15 @@
 			buildConfigurations = (
 				0833D168223F8B0600C35D94 /* Debug */,
 				0833D169223F8B0600C35D94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		084B078B2244B53C00C2E028 /* Build configuration list for PBXNativeTarget "CompositePattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				084B07892244B53C00C2E028 /* Debug */,
+				084B078A2244B53C00C2E028 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

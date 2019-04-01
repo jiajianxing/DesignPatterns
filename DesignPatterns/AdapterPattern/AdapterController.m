@@ -1,5 +1,4 @@
 //
-//  ViewController.m
 //  AdapterPattern
 //
 //  Created by 贾 on 2019/3/19.
