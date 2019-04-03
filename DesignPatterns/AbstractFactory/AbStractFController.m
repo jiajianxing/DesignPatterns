@@ -1,18 +1,18 @@
 //
-//  AbstractFactory
+//  ViewController.m
+//  AbStractFactory
 //
-//  Created by 贾 on 2019/3/18.
+//  Created by 贾 on 2019/4/3.
 //  Copyright © 2019年 GTYK. All rights reserved.
 //
 
-#import "AbstractFController.h"
-#import "Factory/FactoryPeoducer.h"
-
-@interface AbstractFController ()
+#import "AbStractFController.h"
+#import "FactoryPeoducer.h"
+@interface AbStractFController ()
 
 @end
 
-@implementation AbstractFController
+@implementation AbStractFController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -23,11 +23,10 @@
     Shape *shape1 = [shapeFactory getShape:ShapeTypeSquare];
     [shape1 draw];
     
- 
+    
     AbStractFactory *colorFacroty = [FactoryPeoducer getFactory:FactoryTypeColor];
     Color *color = [colorFacroty getColor:ColorTypeGreen];
     [color fill];
-    
 }
 
 

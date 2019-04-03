@@ -7,20 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
-typedef NS_OPTIONS(NSUInteger, ShapeType){
-    ShapeTypeRectAngle,
-    ShapeTypeSquare,
-    ShapeTypeCircle,
-    ShapeTypeUnknown,
-};
+#import "AbStractFactory.h"
+
 
 @class Shape;
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ShapeFactory : NSObject
-
-- (Shape *)getShape:(ShapeType)shapeType;
+@interface ShapeFactory : AbStractFactory
 
 @end
 

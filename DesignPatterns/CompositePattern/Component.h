@@ -12,6 +12,8 @@
 NS_ASSUME_NONNULL_BEGIN
 //组件对象
 @interface Component : NSObject
+/*记录组件对象的父组件对象*/
+@property (nonatomic,strong) Component *parent;
 
 - (void)printStruct:(NSString *)preStr;
 
@@ -21,6 +23,9 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)removeChild:(Component *)child;
 
 - (Component *)getChild:(NSInteger)index;
+
+//获取包含子组件对象的方法
+- (NSArray <Component *>*)getChildren;
 
 @end
 

@@ -44,7 +44,26 @@
         self.childComponts = [NSMutableArray array];
     }
     [self.childComponts addObject:child];
+    child.parent = self;
 }
 
+- (void)removeChild:(Component *)child
+{
+    if (self.childComponts.count > 0) {
+        NSInteger index = [self.childComponts indexOfObject:child];
+        if (index != -1) {
+            for (Component *component in child.getChildren) {
+                component.parent = self;
+                [self.childComponts addObject:component];
+            }
+            [self.childComponts removeObject:child];
+        }
+    }
+}
+
+- (NSArray<Component *> *)getChildren
+{
+    return self.childComponts;
+}
 
 @end

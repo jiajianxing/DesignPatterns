@@ -37,6 +37,10 @@
     
     [root printStruct:@""];
     
+    NSLog(@"-----");
+    
+    [root removeChild:c2];
+    [root printStruct:@""];
 }
 
 

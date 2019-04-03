@@ -29,5 +29,9 @@
 {
     return nil;
 }
+- (NSArray <Component *>*)getChildren
+{
+    return nil;
+}
 
 @end

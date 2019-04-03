@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:DesignPatterns.xcodeproj">
+      location = "self:/Users/jia/DesignPatterns/DesignPatterns/DesignPatterns.xcodeproj">
    </FileRef>
 </Workspace>
