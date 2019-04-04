@@ -76,6 +76,16 @@
 		086E90CE2254B6FB00CC75DD /* HamDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 086E90CD2254B6FB00CC75DD /* HamDecorator.m */; };
 		086E90D12254B73300CC75DD /* LettDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 086E90D02254B73300CC75DD /* LettDecorator.m */; };
 		086E90D42254B9B800CC75DD /* AbPancake.m in Sources */ = {isa = PBXBuildFile; fileRef = 086E90D32254B9B800CC75DD /* AbPancake.m */; };
+		087A54332255E0F0009690B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 087A54322255E0F0009690B2 /* AppDelegate.m */; };
+		087A54362255E0F0009690B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 087A54352255E0F0009690B2 /* ViewController.m */; };
+		087A54392255E0F0009690B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 087A54372255E0F0009690B2 /* Main.storyboard */; };
+		087A543B2255E0F1009690B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 087A543A2255E0F1009690B2 /* Assets.xcassets */; };
+		087A543E2255E0F1009690B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 087A543C2255E0F1009690B2 /* LaunchScreen.storyboard */; };
+		087A54412255E0F1009690B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 087A54402255E0F1009690B2 /* main.m */; };
+		087A54522255E1DB009690B2 /* Facade.m in Sources */ = {isa = PBXBuildFile; fileRef = 087A54502255E1D0009690B2 /* Facade.m */; };
+		087A54532255E339009690B2 /* AModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 087A54472255E167009690B2 /* AModule.m */; };
+		087A54542255E33D009690B2 /* BModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 087A544A2255E175009690B2 /* BModule.m */; };
+		087A54552255E341009690B2 /* CModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 087A544D2255E17F009690B2 /* CModule.m */; };
 		0891D3F82240885600AAE2A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0891D3F72240885600AAE2A1 /* AppDelegate.m */; };
 		0891D3FB2240885600AAE2A1 /* PrototyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0891D3FA2240885600AAE2A1 /* PrototyVC.m */; };
 		0891D3FE2240885600AAE2A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0891D3FC2240885600AAE2A1 /* Main.storyboard */; };
@@ -251,6 +261,24 @@
 		086E90D02254B73300CC75DD /* LettDecorator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LettDecorator.m; sourceTree = "<group>"; };
 		086E90D22254B9B800CC75DD /* AbPancake.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbPancake.h; sourceTree = "<group>"; };
 		086E90D32254B9B800CC75DD /* AbPancake.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbPancake.m; sourceTree = "<group>"; };
+		087A542F2255E0EF009690B2 /* FacadePattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FacadePattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		087A54312255E0F0009690B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		087A54322255E0F0009690B2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		087A54342255E0F0009690B2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		087A54352255E0F0009690B2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		087A54382255E0F0009690B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		087A543A2255E0F1009690B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		087A543D2255E0F1009690B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		087A543F2255E0F1009690B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		087A54402255E0F1009690B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		087A54462255E167009690B2 /* AModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AModule.h; sourceTree = "<group>"; };
+		087A54472255E167009690B2 /* AModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AModule.m; sourceTree = "<group>"; };
+		087A54492255E175009690B2 /* BModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BModule.h; sourceTree = "<group>"; };
+		087A544A2255E175009690B2 /* BModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BModule.m; sourceTree = "<group>"; };
+		087A544C2255E17F009690B2 /* CModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CModule.h; sourceTree = "<group>"; };
+		087A544D2255E17F009690B2 /* CModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CModule.m; sourceTree = "<group>"; };
+		087A544F2255E1D0009690B2 /* Facade.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Facade.h; sourceTree = "<group>"; };
+		087A54502255E1D0009690B2 /* Facade.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Facade.m; sourceTree = "<group>"; };
 		0891D3F42240885600AAE2A1 /* PrototypePattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrototypePattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0891D3F62240885600AAE2A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0891D3F72240885600AAE2A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -375,6 +403,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		087A542C2255E0EF009690B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0891D3F12240885600AAE2A1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -406,7 +441,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0833D155223F8B0400C35D94 /* BuilderPattern */ = {
+		0833D155223F8B0400C35D94 /* BuilderPattern(建造者模式) */ = {
 			isa = PBXGroup;
 			children = (
 				0833D175223F933500C35D94 /* Item */,
@@ -422,6 +457,7 @@
 				0833D164223F8B0600C35D94 /* Info.plist */,
 				0833D165223F8B0600C35D94 /* main.m */,
 			);
+			name = "BuilderPattern(建造者模式)";
 			path = BuilderPattern;
 			sourceTree = "<group>";
 		};
@@ -470,7 +506,7 @@
 			path = Item;
 			sourceTree = "<group>";
 		};
-		084B07772244B53A00C2E028 /* CompositePattern */ = {
+		084B07772244B53A00C2E028 /* CompositePattern(组合模式) */ = {
 			isa = PBXGroup;
 			children = (
 				084B07782244B53A00C2E028 /* AppDelegate.h */,
@@ -489,21 +525,23 @@
 				084B07862244B53C00C2E028 /* Info.plist */,
 				084B07872244B53C00C2E028 /* main.m */,
 			);
+			name = "CompositePattern(组合模式)";
 			path = CompositePattern;
 			sourceTree = "<group>";
 		};
 		085F5F4F223F382700CCB31A = {
 			isa = PBXGroup;
 			children = (
-				085F5F5A223F382700CCB31A /* DesignPatterns */,
-				0833D155223F8B0400C35D94 /* BuilderPattern */,
-				0891D3F52240885600AAE2A1 /* PrototypePattern */,
-				08A33A522240D62C00C19ED7 /* AdapterPattern */,
-				08A72ACB224230F9004A8600 /* BridgePattern */,
-				08F7F1E12243936E007D4021 /* FilterPattern */,
-				084B07772244B53A00C2E028 /* CompositePattern */,
-				086E905A2254A5A700CC75DD /* AbStractFactory */,
-				086E90A02254A78700CC75DD /* DecoratorPattern */,
+				085F5F5A223F382700CCB31A /* DesignPatterns(工厂模式) */,
+				0833D155223F8B0400C35D94 /* BuilderPattern(建造者模式) */,
+				0891D3F52240885600AAE2A1 /* PrototypePattern(原型模式) */,
+				08A33A522240D62C00C19ED7 /* AdapterPattern(适配器模式) */,
+				08A72ACB224230F9004A8600 /* BridgePattern(桥接模式) */,
+				08F7F1E12243936E007D4021 /* FilterPattern(过滤器模式) */,
+				084B07772244B53A00C2E028 /* CompositePattern(组合模式) */,
+				086E905A2254A5A700CC75DD /* AbStractFactory(抽象工厂模式) */,
+				086E90A02254A78700CC75DD /* DecoratorPattern(装饰器模式) */,
+				087A54302255E0F0009690B2 /* FacadePattern(外观模式) */,
 				085F5F59223F382700CCB31A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -521,11 +559,12 @@
 				084B07762244B53A00C2E028 /* CompositePattern.app */,
 				086E90592254A5A700CC75DD /* AbStractFactory.app */,
 				086E909F2254A78700CC75DD /* DecoratorPattern.app */,
+				087A542F2255E0EF009690B2 /* FacadePattern.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		085F5F5A223F382700CCB31A /* DesignPatterns */ = {
+		085F5F5A223F382700CCB31A /* DesignPatterns(工厂模式) */ = {
 			isa = PBXGroup;
 			children = (
 				086E90082254A3D200CC75DD /* Shape */,
@@ -540,6 +579,7 @@
 				085F5F69223F382A00CCB31A /* Info.plist */,
 				085F5F6A223F382A00CCB31A /* main.m */,
 			);
+			name = "DesignPatterns(工厂模式)";
 			path = DesignPatterns;
 			sourceTree = "<group>";
 		};
@@ -567,7 +607,7 @@
 			path = Shape;
 			sourceTree = "<group>";
 		};
-		086E905A2254A5A700CC75DD /* AbStractFactory */ = {
+		086E905A2254A5A700CC75DD /* AbStractFactory(抽象工厂模式) */ = {
 			isa = PBXGroup;
 			children = (
 				086E90762254A63600CC75DD /* Color */,
@@ -583,7 +623,8 @@
 				086E90692254A5A900CC75DD /* Info.plist */,
 				086E906A2254A5A900CC75DD /* main.m */,
 			);
-			path = AbStractFactory;
+			name = "AbStractFactory(抽象工厂模式)";
+			path = AbstractFactory;
 			sourceTree = "<group>";
 		};
 		086E90742254A62900CC75DD /* Factory */ = {
@@ -631,7 +672,7 @@
 			path = Color;
 			sourceTree = "<group>";
 		};
-		086E90A02254A78700CC75DD /* DecoratorPattern */ = {
+		086E90A02254A78700CC75DD /* DecoratorPattern(装饰器模式) */ = {
 			isa = PBXGroup;
 			children = (
 				086E90C42254B29F00CC75DD /* Decorator */,
@@ -647,6 +688,7 @@
 				086E90AF2254A78800CC75DD /* Info.plist */,
 				086E90B02254A78800CC75DD /* main.m */,
 			);
+			name = "DecoratorPattern(装饰器模式)";
 			path = DecoratorPattern;
 			sourceTree = "<group>";
 		};
@@ -685,7 +727,40 @@
 			path = Decorator;
 			sourceTree = "<group>";
 		};
-		0891D3F52240885600AAE2A1 /* PrototypePattern */ = {
+		087A54302255E0F0009690B2 /* FacadePattern(外观模式) */ = {
+			isa = PBXGroup;
+			children = (
+				087A544F2255E1D0009690B2 /* Facade.h */,
+				087A54502255E1D0009690B2 /* Facade.m */,
+				087A54452255E151009690B2 /* Module */,
+				087A54312255E0F0009690B2 /* AppDelegate.h */,
+				087A54322255E0F0009690B2 /* AppDelegate.m */,
+				087A54342255E0F0009690B2 /* ViewController.h */,
+				087A54352255E0F0009690B2 /* ViewController.m */,
+				087A54372255E0F0009690B2 /* Main.storyboard */,
+				087A543A2255E0F1009690B2 /* Assets.xcassets */,
+				087A543C2255E0F1009690B2 /* LaunchScreen.storyboard */,
+				087A543F2255E0F1009690B2 /* Info.plist */,
+				087A54402255E0F1009690B2 /* main.m */,
+			);
+			name = "FacadePattern(外观模式)";
+			path = FacadePattern;
+			sourceTree = "<group>";
+		};
+		087A54452255E151009690B2 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				087A54462255E167009690B2 /* AModule.h */,
+				087A54472255E167009690B2 /* AModule.m */,
+				087A54492255E175009690B2 /* BModule.h */,
+				087A544A2255E175009690B2 /* BModule.m */,
+				087A544C2255E17F009690B2 /* CModule.h */,
+				087A544D2255E17F009690B2 /* CModule.m */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		0891D3F52240885600AAE2A1 /* PrototypePattern(原型模式) */ = {
 			isa = PBXGroup;
 			children = (
 				0891D3F62240885600AAE2A1 /* AppDelegate.h */,
@@ -701,10 +776,11 @@
 				0891D4042240885700AAE2A1 /* Info.plist */,
 				0891D4052240885700AAE2A1 /* main.m */,
 			);
+			name = "PrototypePattern(原型模式)";
 			path = PrototypePattern;
 			sourceTree = "<group>";
 		};
-		08A33A522240D62C00C19ED7 /* AdapterPattern */ = {
+		08A33A522240D62C00C19ED7 /* AdapterPattern(适配器模式) */ = {
 			isa = PBXGroup;
 			children = (
 				08A72AC5224213EC004A8600 /* ClassAdapter */,
@@ -718,6 +794,7 @@
 				08A33A612240D62D00C19ED7 /* Info.plist */,
 				08A33A622240D62D00C19ED7 /* main.m */,
 			);
+			name = "AdapterPattern(适配器模式)";
 			path = AdapterPattern;
 			sourceTree = "<group>";
 		};
@@ -756,7 +833,7 @@
 			path = ClassAdapter;
 			sourceTree = "<group>";
 		};
-		08A72ACB224230F9004A8600 /* BridgePattern */ = {
+		08A72ACB224230F9004A8600 /* BridgePattern(桥接模式) */ = {
 			isa = PBXGroup;
 			children = (
 				08A72AE4224231BA004A8600 /* Object */,
@@ -771,6 +848,7 @@
 				08A72ADA224230FD004A8600 /* Info.plist */,
 				08A72ADB224230FD004A8600 /* main.m */,
 			);
+			name = "BridgePattern(桥接模式)";
 			path = BridgePattern;
 			sourceTree = "<group>";
 		};
@@ -800,7 +878,7 @@
 			path = Object;
 			sourceTree = "<group>";
 		};
-		08F7F1E12243936E007D4021 /* FilterPattern */ = {
+		08F7F1E12243936E007D4021 /* FilterPattern(过滤器模式) */ = {
 			isa = PBXGroup;
 			children = (
 				08F7F1FC224395EF007D4021 /* Filter */,
@@ -816,6 +894,7 @@
 				08F7F1F022439370007D4021 /* Info.plist */,
 				08F7F1F122439370007D4021 /* main.m */,
 			);
+			name = "FilterPattern(过滤器模式)";
 			path = FilterPattern;
 			sourceTree = "<group>";
 		};
@@ -941,6 +1020,23 @@
 			productReference = 086E909F2254A78700CC75DD /* DecoratorPattern.app */;
 			productType = "com.apple.product-type.application";
 		};
+		087A542E2255E0EF009690B2 /* FacadePattern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 087A54422255E0F1009690B2 /* Build configuration list for PBXNativeTarget "FacadePattern" */;
+			buildPhases = (
+				087A542B2255E0EF009690B2 /* Sources */,
+				087A542C2255E0EF009690B2 /* Frameworks */,
+				087A542D2255E0EF009690B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FacadePattern;
+			productName = FacadePattern;
+			productReference = 087A542F2255E0EF009690B2 /* FacadePattern.app */;
+			productType = "com.apple.product-type.application";
+		};
 		0891D3F32240885600AAE2A1 /* PrototypePattern */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0891D4092240885700AAE2A1 /* Build configuration list for PBXNativeTarget "PrototypePattern" */;
@@ -1037,6 +1133,9 @@
 					086E909E2254A78700CC75DD = {
 						CreatedOnToolsVersion = 10.1;
 					};
+					087A542E2255E0EF009690B2 = {
+						CreatedOnToolsVersion = 10.1;
+					};
 					0891D3F32240885600AAE2A1 = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -1074,6 +1173,7 @@
 				084B07752244B53A00C2E028 /* CompositePattern */,
 				086E90582254A5A700CC75DD /* AbStractFactory */,
 				086E909E2254A78700CC75DD /* DecoratorPattern */,
+				087A542E2255E0EF009690B2 /* FacadePattern */,
 			);
 		};
 /* End PBXProject section */
@@ -1133,6 +1233,16 @@
 				086E90AE2254A78800CC75DD /* LaunchScreen.storyboard in Resources */,
 				086E90AB2254A78800CC75DD /* Assets.xcassets in Resources */,
 				086E90A92254A78700CC75DD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		087A542D2255E0EF009690B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				087A543E2255E0F1009690B2 /* LaunchScreen.storyboard in Resources */,
+				087A543B2255E0F1009690B2 /* Assets.xcassets in Resources */,
+				087A54392255E0F0009690B2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1275,6 +1385,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		087A542B2255E0EF009690B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				087A54362255E0F0009690B2 /* ViewController.m in Sources */,
+				087A54532255E339009690B2 /* AModule.m in Sources */,
+				087A54412255E0F1009690B2 /* main.m in Sources */,
+				087A54332255E0F0009690B2 /* AppDelegate.m in Sources */,
+				087A54552255E341009690B2 /* CModule.m in Sources */,
+				087A54542255E33D009690B2 /* BModule.m in Sources */,
+				087A54522255E1DB009690B2 /* Facade.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0891D3F02240885600AAE2A1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1413,6 +1537,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				086E90AD2254A78800CC75DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		087A54372255E0F0009690B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				087A54382255E0F0009690B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		087A543C2255E0F1009690B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				087A543D2255E0F1009690B2 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -1796,6 +1936,38 @@
 			};
 			name = Release;
 		};
+		087A54432255E0F1009690B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FacadePattern/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zuhe.FacadePattern;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		087A54442255E0F1009690B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FacadePattern/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zuhe.FacadePattern;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		0891D4072240885700AAE2A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1986,6 +2158,15 @@
 			buildConfigurations = (
 				086E90B32254A78800CC75DD /* Debug */,
 				086E90B42254A78800CC75DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		087A54422255E0F1009690B2 /* Build configuration list for PBXNativeTarget "FacadePattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				087A54432255E0F1009690B2 /* Debug */,
+				087A54442255E0F1009690B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

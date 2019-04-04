@@ -24,6 +24,7 @@
 //    Pancake *pancake = [[Pancake alloc] init];
 //    [pancake cookPancakeWithEgg:YES ham:NO lettuce:YES];
     
+    //先创建基本的煎饼对象,这也是被装饰的对象
     AbPancake *ipancake = [[IPancake alloc] init];
     AbPancake *egg = [EggDecorator decoratorWithComponent:ipancake];
     AbPancake *ham = [HamDecorator decoratorWithComponent:egg];
