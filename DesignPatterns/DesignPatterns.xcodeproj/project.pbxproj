@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08129CDA225B2CB9007405C9 /* ShapeFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 08129CD8225B2769007405C9 /* ShapeFactory.m */; };
+		08129CDB225B2CBD007405C9 /* Shape.m in Sources */ = {isa = PBXBuildFile; fileRef = 08129CD5225B2757007405C9 /* Shape.m */; };
 		0833D158223F8B0400C35D94 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0833D157223F8B0400C35D94 /* AppDelegate.m */; };
 		0833D15B223F8B0400C35D94 /* BuilderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0833D15A223F8B0400C35D94 /* BuilderController.m */; };
 		0833D15E223F8B0400C35D94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0833D15C223F8B0400C35D94 /* Main.storyboard */; };
@@ -77,7 +79,7 @@
 		086E90D12254B73300CC75DD /* LettDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 086E90D02254B73300CC75DD /* LettDecorator.m */; };
 		086E90D42254B9B800CC75DD /* AbPancake.m in Sources */ = {isa = PBXBuildFile; fileRef = 086E90D32254B9B800CC75DD /* AbPancake.m */; };
 		087A54332255E0F0009690B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 087A54322255E0F0009690B2 /* AppDelegate.m */; };
-		087A54362255E0F0009690B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 087A54352255E0F0009690B2 /* ViewController.m */; };
+		087A54362255E0F0009690B2 /* FacadeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 087A54352255E0F0009690B2 /* FacadeController.m */; };
 		087A54392255E0F0009690B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 087A54372255E0F0009690B2 /* Main.storyboard */; };
 		087A543B2255E0F1009690B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 087A543A2255E0F1009690B2 /* Assets.xcassets */; };
 		087A543E2255E0F1009690B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 087A543C2255E0F1009690B2 /* LaunchScreen.storyboard */; };
@@ -86,6 +88,12 @@
 		087A54532255E339009690B2 /* AModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 087A54472255E167009690B2 /* AModule.m */; };
 		087A54542255E33D009690B2 /* BModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 087A544A2255E175009690B2 /* BModule.m */; };
 		087A54552255E341009690B2 /* CModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 087A544D2255E17F009690B2 /* CModule.m */; };
+		087A54602255F853009690B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 087A545F2255F853009690B2 /* AppDelegate.m */; };
+		087A54632255F853009690B2 /* FlyWeightVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 087A54622255F853009690B2 /* FlyWeightVC.m */; };
+		087A54662255F853009690B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 087A54642255F853009690B2 /* Main.storyboard */; };
+		087A54682255F854009690B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 087A54672255F854009690B2 /* Assets.xcassets */; };
+		087A546B2255F854009690B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 087A54692255F854009690B2 /* LaunchScreen.storyboard */; };
+		087A546E2255F854009690B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 087A546D2255F854009690B2 /* main.m */; };
 		0891D3F82240885600AAE2A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0891D3F72240885600AAE2A1 /* AppDelegate.m */; };
 		0891D3FB2240885600AAE2A1 /* PrototyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0891D3FA2240885600AAE2A1 /* PrototyVC.m */; };
 		0891D3FE2240885600AAE2A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0891D3FC2240885600AAE2A1 /* Main.storyboard */; };
@@ -132,6 +140,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		08129CD4225B2757007405C9 /* Shape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Shape.h; sourceTree = "<group>"; };
+		08129CD5225B2757007405C9 /* Shape.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Shape.m; sourceTree = "<group>"; };
+		08129CD7225B2769007405C9 /* ShapeFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShapeFactory.h; sourceTree = "<group>"; };
+		08129CD8225B2769007405C9 /* ShapeFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShapeFactory.m; sourceTree = "<group>"; };
 		0833D154223F8B0400C35D94 /* BuilderPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuilderPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0833D156223F8B0400C35D94 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0833D157223F8B0400C35D94 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -264,8 +276,8 @@
 		087A542F2255E0EF009690B2 /* FacadePattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FacadePattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		087A54312255E0F0009690B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		087A54322255E0F0009690B2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		087A54342255E0F0009690B2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		087A54352255E0F0009690B2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		087A54342255E0F0009690B2 /* FacadeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FacadeController.h; sourceTree = "<group>"; };
+		087A54352255E0F0009690B2 /* FacadeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FacadeController.m; sourceTree = "<group>"; };
 		087A54382255E0F0009690B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		087A543A2255E0F1009690B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		087A543D2255E0F1009690B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -279,6 +291,16 @@
 		087A544D2255E17F009690B2 /* CModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CModule.m; sourceTree = "<group>"; };
 		087A544F2255E1D0009690B2 /* Facade.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Facade.h; sourceTree = "<group>"; };
 		087A54502255E1D0009690B2 /* Facade.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Facade.m; sourceTree = "<group>"; };
+		087A545C2255F853009690B2 /* Flyweight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flyweight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		087A545E2255F853009690B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		087A545F2255F853009690B2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		087A54612255F853009690B2 /* FlyWeightVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlyWeightVC.h; sourceTree = "<group>"; };
+		087A54622255F853009690B2 /* FlyWeightVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlyWeightVC.m; sourceTree = "<group>"; };
+		087A54652255F853009690B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		087A54672255F854009690B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		087A546A2255F854009690B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		087A546C2255F854009690B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		087A546D2255F854009690B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0891D3F42240885600AAE2A1 /* PrototypePattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrototypePattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0891D3F62240885600AAE2A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0891D3F72240885600AAE2A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -404,6 +426,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		087A542C2255E0EF009690B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		087A54592255F853009690B2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -542,6 +571,7 @@
 				086E905A2254A5A700CC75DD /* AbStractFactory(抽象工厂模式) */,
 				086E90A02254A78700CC75DD /* DecoratorPattern(装饰器模式) */,
 				087A54302255E0F0009690B2 /* FacadePattern(外观模式) */,
+				087A545D2255F853009690B2 /* Flyweight(享元模式) */,
 				085F5F59223F382700CCB31A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -560,6 +590,7 @@
 				086E90592254A5A700CC75DD /* AbStractFactory.app */,
 				086E909F2254A78700CC75DD /* DecoratorPattern.app */,
 				087A542F2255E0EF009690B2 /* FacadePattern.app */,
+				087A545C2255F853009690B2 /* Flyweight.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -735,8 +766,8 @@
 				087A54452255E151009690B2 /* Module */,
 				087A54312255E0F0009690B2 /* AppDelegate.h */,
 				087A54322255E0F0009690B2 /* AppDelegate.m */,
-				087A54342255E0F0009690B2 /* ViewController.h */,
-				087A54352255E0F0009690B2 /* ViewController.m */,
+				087A54342255E0F0009690B2 /* FacadeController.h */,
+				087A54352255E0F0009690B2 /* FacadeController.m */,
 				087A54372255E0F0009690B2 /* Main.storyboard */,
 				087A543A2255E0F1009690B2 /* Assets.xcassets */,
 				087A543C2255E0F1009690B2 /* LaunchScreen.storyboard */,
@@ -758,6 +789,27 @@
 				087A544D2255E17F009690B2 /* CModule.m */,
 			);
 			path = Module;
+			sourceTree = "<group>";
+		};
+		087A545D2255F853009690B2 /* Flyweight(享元模式) */ = {
+			isa = PBXGroup;
+			children = (
+				08129CD4225B2757007405C9 /* Shape.h */,
+				08129CD5225B2757007405C9 /* Shape.m */,
+				08129CD7225B2769007405C9 /* ShapeFactory.h */,
+				08129CD8225B2769007405C9 /* ShapeFactory.m */,
+				087A545E2255F853009690B2 /* AppDelegate.h */,
+				087A545F2255F853009690B2 /* AppDelegate.m */,
+				087A54612255F853009690B2 /* FlyWeightVC.h */,
+				087A54622255F853009690B2 /* FlyWeightVC.m */,
+				087A54642255F853009690B2 /* Main.storyboard */,
+				087A54672255F854009690B2 /* Assets.xcassets */,
+				087A54692255F854009690B2 /* LaunchScreen.storyboard */,
+				087A546C2255F854009690B2 /* Info.plist */,
+				087A546D2255F854009690B2 /* main.m */,
+			);
+			name = "Flyweight(享元模式)";
+			path = Flyweight;
 			sourceTree = "<group>";
 		};
 		0891D3F52240885600AAE2A1 /* PrototypePattern(原型模式) */ = {
@@ -1037,6 +1089,23 @@
 			productReference = 087A542F2255E0EF009690B2 /* FacadePattern.app */;
 			productType = "com.apple.product-type.application";
 		};
+		087A545B2255F853009690B2 /* Flyweight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 087A546F2255F854009690B2 /* Build configuration list for PBXNativeTarget "Flyweight" */;
+			buildPhases = (
+				087A54582255F853009690B2 /* Sources */,
+				087A54592255F853009690B2 /* Frameworks */,
+				087A545A2255F853009690B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Flyweight;
+			productName = Flyweight;
+			productReference = 087A545C2255F853009690B2 /* Flyweight.app */;
+			productType = "com.apple.product-type.application";
+		};
 		0891D3F32240885600AAE2A1 /* PrototypePattern */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0891D4092240885700AAE2A1 /* Build configuration list for PBXNativeTarget "PrototypePattern" */;
@@ -1136,6 +1205,9 @@
 					087A542E2255E0EF009690B2 = {
 						CreatedOnToolsVersion = 10.1;
 					};
+					087A545B2255F853009690B2 = {
+						CreatedOnToolsVersion = 10.1;
+					};
 					0891D3F32240885600AAE2A1 = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -1174,6 +1246,7 @@
 				086E90582254A5A700CC75DD /* AbStractFactory */,
 				086E909E2254A78700CC75DD /* DecoratorPattern */,
 				087A542E2255E0EF009690B2 /* FacadePattern */,
+				087A545B2255F853009690B2 /* Flyweight */,
 			);
 		};
 /* End PBXProject section */
@@ -1243,6 +1316,16 @@
 				087A543E2255E0F1009690B2 /* LaunchScreen.storyboard in Resources */,
 				087A543B2255E0F1009690B2 /* Assets.xcassets in Resources */,
 				087A54392255E0F0009690B2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		087A545A2255F853009690B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				087A546B2255F854009690B2 /* LaunchScreen.storyboard in Resources */,
+				087A54682255F854009690B2 /* Assets.xcassets in Resources */,
+				087A54662255F853009690B2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1389,13 +1472,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				087A54362255E0F0009690B2 /* ViewController.m in Sources */,
+				087A54362255E0F0009690B2 /* FacadeController.m in Sources */,
 				087A54532255E339009690B2 /* AModule.m in Sources */,
 				087A54412255E0F1009690B2 /* main.m in Sources */,
 				087A54332255E0F0009690B2 /* AppDelegate.m in Sources */,
 				087A54552255E341009690B2 /* CModule.m in Sources */,
 				087A54542255E33D009690B2 /* BModule.m in Sources */,
 				087A54522255E1DB009690B2 /* Facade.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		087A54582255F853009690B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				087A54632255F853009690B2 /* FlyWeightVC.m in Sources */,
+				087A546E2255F854009690B2 /* main.m in Sources */,
+				08129CDB225B2CBD007405C9 /* Shape.m in Sources */,
+				08129CDA225B2CB9007405C9 /* ShapeFactory.m in Sources */,
+				087A54602255F853009690B2 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1553,6 +1648,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				087A543D2255E0F1009690B2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		087A54642255F853009690B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				087A54652255F853009690B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		087A54692255F854009690B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				087A546A2255F854009690B2 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -1968,6 +2079,38 @@
 			};
 			name = Release;
 		};
+		087A54702255F854009690B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Flyweight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zuhe.Flyweight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		087A54712255F854009690B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Flyweight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zuhe.Flyweight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		0891D4072240885700AAE2A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2167,6 +2310,15 @@
 			buildConfigurations = (
 				087A54432255E0F1009690B2 /* Debug */,
 				087A54442255E0F1009690B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		087A546F2255F854009690B2 /* Build configuration list for PBXNativeTarget "Flyweight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				087A54702255F854009690B2 /* Debug */,
+				087A54712255F854009690B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

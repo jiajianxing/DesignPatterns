@@ -6,14 +6,14 @@
 //  Copyright © 2019年 GTYK. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "FacadeController.h"
 #import "Facade.h"
 
-@interface ViewController ()
+@interface FacadeController ()
 
 @end
 
-@implementation ViewController
+@implementation FacadeController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
