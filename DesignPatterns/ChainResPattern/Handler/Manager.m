@@ -15,4 +15,9 @@
     [self.nextManager handleRequest:user salary:salary];
 }
 
+- (void)handleRequest:(RequestModel *)model
+{
+    [self.nextManager handleRequest:model];
+}
+
 @end

@@ -142,6 +142,7 @@
 		08E87310225C970700CF35D8 /* DepartmentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E8730F225C970700CF35D8 /* DepartmentManager.m */; };
 		08E87313225C971D00CF35D8 /* DepartmentDirector.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E87312225C971D00CF35D8 /* DepartmentDirector.m */; };
 		08E87316225C973800CF35D8 /* GeneralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E87315225C973800CF35D8 /* GeneralManager.m */; };
+		08E87319225CA08300CF35D8 /* RequestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E87318225CA08300CF35D8 /* RequestModel.m */; };
 		08F7F1E42243936E007D4021 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F7F1E32243936E007D4021 /* AppDelegate.m */; };
 		08F7F1E72243936E007D4021 /* FilterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F7F1E62243936E007D4021 /* FilterController.m */; };
 		08F7F1EA2243936E007D4021 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08F7F1E82243936E007D4021 /* Main.storyboard */; };
@@ -406,6 +407,8 @@
 		08E87312225C971D00CF35D8 /* DepartmentDirector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DepartmentDirector.m; sourceTree = "<group>"; };
 		08E87314225C973800CF35D8 /* GeneralManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeneralManager.h; sourceTree = "<group>"; };
 		08E87315225C973800CF35D8 /* GeneralManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeneralManager.m; sourceTree = "<group>"; };
+		08E87317225CA08300CF35D8 /* RequestModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RequestModel.h; sourceTree = "<group>"; };
+		08E87318225CA08300CF35D8 /* RequestModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RequestModel.m; sourceTree = "<group>"; };
 		08F7F1E02243936E007D4021 /* FilterPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FilterPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08F7F1E22243936E007D4021 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		08F7F1E32243936E007D4021 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -1019,6 +1022,8 @@
 		08E872F5225C8B7100CF35D8 /* ChainResPattern(责任链模式) */ = {
 			isa = PBXGroup;
 			children = (
+				08E87317225CA08300CF35D8 /* RequestModel.h */,
+				08E87318225CA08300CF35D8 /* RequestModel.m */,
 				08E8730A225C96B600CF35D8 /* Handler */,
 				08E872F6225C8B7100CF35D8 /* AppDelegate.h */,
 				08E872F7225C8B7100CF35D8 /* AppDelegate.m */,
@@ -1736,6 +1741,7 @@
 				08E872FB225C8B7100CF35D8 /* ChainController.m in Sources */,
 				08E87310225C970700CF35D8 /* DepartmentManager.m in Sources */,
 				08E87306225C8B7200CF35D8 /* main.m in Sources */,
+				08E87319225CA08300CF35D8 /* RequestModel.m in Sources */,
 				08E87316225C973800CF35D8 /* GeneralManager.m in Sources */,
 				08E87313225C971D00CF35D8 /* DepartmentDirector.m in Sources */,
 				08E872F8225C8B7100CF35D8 /* AppDelegate.m in Sources */,
