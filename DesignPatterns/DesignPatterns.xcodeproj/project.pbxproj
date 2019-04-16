@@ -49,6 +49,18 @@
 		085090322265742500756DCA /* Receiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 085090302265741E00756DCA /* Receiver.m */; };
 		0850903622657F9300756DCA /* LighterCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 0850903422657F9300756DCA /* LighterCommand.m */; };
 		0850903922657FA600756DCA /* DarkerCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 0850903822657FA600756DCA /* DarkerCommand.m */; };
+		085090422265CB4000756DCA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 085090412265CB4000756DCA /* AppDelegate.m */; };
+		085090452265CB4000756DCA /* InterpreterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 085090442265CB4000756DCA /* InterpreterVC.m */; };
+		085090482265CB4000756DCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 085090462265CB4000756DCA /* Main.storyboard */; };
+		0850904A2265CB4200756DCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 085090492265CB4200756DCA /* Assets.xcassets */; };
+		0850904D2265CB4200756DCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0850904B2265CB4200756DCA /* LaunchScreen.storyboard */; };
+		085090502265CB4200756DCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0850904F2265CB4200756DCA /* main.m */; };
+		085090582265D8C900756DCA /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = 085090562265D8C300756DCA /* Node.m */; };
+		0850905B2265D8FE00756DCA /* ValueNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0850905A2265D8FE00756DCA /* ValueNode.m */; };
+		0850905E2265D9BF00756DCA /* SymbolNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0850905D2265D9BF00756DCA /* SymbolNode.m */; };
+		085090612265DA5D00756DCA /* MulNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 085090602265DA5D00756DCA /* MulNode.m */; };
+		085090642265DAF300756DCA /* ModNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 085090632265DAF300756DCA /* ModNode.m */; };
+		085090672265DB0B00756DCA /* DivNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 085090662265DB0B00756DCA /* DivNode.m */; };
 		08546BC22260757500B5025E /* Invoker.m in Sources */ = {isa = PBXBuildFile; fileRef = 08546BC12260757500B5025E /* Invoker.m */; };
 		085CD0CF224CB2DB00539816 /* Component.m in Sources */ = {isa = PBXBuildFile; fileRef = 085CD0CE224CB2DB00539816 /* Component.m */; };
 		085CD0D2224CB78B00539816 /* Leaf.m in Sources */ = {isa = PBXBuildFile; fileRef = 085CD0D1224CB78A00539816 /* Leaf.m */; };
@@ -245,6 +257,28 @@
 		0850903422657F9300756DCA /* LighterCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LighterCommand.m; sourceTree = "<group>"; };
 		0850903722657FA600756DCA /* DarkerCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DarkerCommand.h; sourceTree = "<group>"; };
 		0850903822657FA600756DCA /* DarkerCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DarkerCommand.m; sourceTree = "<group>"; };
+		0850903E2265CB4000756DCA /* InterpreterPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InterpreterPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		085090402265CB4000756DCA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		085090412265CB4000756DCA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		085090432265CB4000756DCA /* InterpreterVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterpreterVC.h; sourceTree = "<group>"; };
+		085090442265CB4000756DCA /* InterpreterVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterpreterVC.m; sourceTree = "<group>"; };
+		085090472265CB4000756DCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		085090492265CB4200756DCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0850904C2265CB4200756DCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0850904E2265CB4200756DCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0850904F2265CB4200756DCA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		085090552265D8C300756DCA /* Node.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		085090562265D8C300756DCA /* Node.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
+		085090592265D8FE00756DCA /* ValueNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ValueNode.h; sourceTree = "<group>"; };
+		0850905A2265D8FE00756DCA /* ValueNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ValueNode.m; sourceTree = "<group>"; };
+		0850905C2265D9BF00756DCA /* SymbolNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SymbolNode.h; sourceTree = "<group>"; };
+		0850905D2265D9BF00756DCA /* SymbolNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SymbolNode.m; sourceTree = "<group>"; };
+		0850905F2265DA5D00756DCA /* MulNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MulNode.h; sourceTree = "<group>"; };
+		085090602265DA5D00756DCA /* MulNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MulNode.m; sourceTree = "<group>"; };
+		085090622265DAF300756DCA /* ModNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModNode.h; sourceTree = "<group>"; };
+		085090632265DAF300756DCA /* ModNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModNode.m; sourceTree = "<group>"; };
+		085090652265DB0B00756DCA /* DivNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DivNode.h; sourceTree = "<group>"; };
+		085090662265DB0B00756DCA /* DivNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DivNode.m; sourceTree = "<group>"; };
 		08546BBD22606C1A00B5025E /* CommandInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommandInterface.h; sourceTree = "<group>"; };
 		08546BC02260757500B5025E /* Invoker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Invoker.h; sourceTree = "<group>"; };
 		08546BC12260757500B5025E /* Invoker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Invoker.m; sourceTree = "<group>"; };
@@ -491,6 +525,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0850903B2265CB4000756DCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		085F5F55223F382700CCB31A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -708,6 +749,43 @@
 			path = Receiver;
 			sourceTree = "<group>";
 		};
+		0850903F2265CB4000756DCA /* InterpreterPattern(解释器模式) */ = {
+			isa = PBXGroup;
+			children = (
+				085090542265D8B200756DCA /* Node */,
+				085090402265CB4000756DCA /* AppDelegate.h */,
+				085090412265CB4000756DCA /* AppDelegate.m */,
+				085090432265CB4000756DCA /* InterpreterVC.h */,
+				085090442265CB4000756DCA /* InterpreterVC.m */,
+				085090462265CB4000756DCA /* Main.storyboard */,
+				085090492265CB4200756DCA /* Assets.xcassets */,
+				0850904B2265CB4200756DCA /* LaunchScreen.storyboard */,
+				0850904E2265CB4200756DCA /* Info.plist */,
+				0850904F2265CB4200756DCA /* main.m */,
+			);
+			name = "InterpreterPattern(解释器模式)";
+			path = InterpreterPattern;
+			sourceTree = "<group>";
+		};
+		085090542265D8B200756DCA /* Node */ = {
+			isa = PBXGroup;
+			children = (
+				085090552265D8C300756DCA /* Node.h */,
+				085090562265D8C300756DCA /* Node.m */,
+				085090592265D8FE00756DCA /* ValueNode.h */,
+				0850905A2265D8FE00756DCA /* ValueNode.m */,
+				0850905C2265D9BF00756DCA /* SymbolNode.h */,
+				0850905D2265D9BF00756DCA /* SymbolNode.m */,
+				0850905F2265DA5D00756DCA /* MulNode.h */,
+				085090602265DA5D00756DCA /* MulNode.m */,
+				085090622265DAF300756DCA /* ModNode.h */,
+				085090632265DAF300756DCA /* ModNode.m */,
+				085090652265DB0B00756DCA /* DivNode.h */,
+				085090662265DB0B00756DCA /* DivNode.m */,
+			);
+			path = Node;
+			sourceTree = "<group>";
+		};
 		08546BBE22606C5100B5025E /* Command */ = {
 			isa = PBXGroup;
 			children = (
@@ -746,6 +824,7 @@
 				08129CE1225B37D5007405C9 /* ProxyPattern(代理模式) */,
 				08E872F5225C8B7100CF35D8 /* ChainResPattern(责任链模式) */,
 				081F1D24225F6B2600D85860 /* CommandPattern(命令模式) */,
+				0850903F2265CB4000756DCA /* InterpreterPattern(解释器模式) */,
 				085F5F59223F382700CCB31A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -768,6 +847,7 @@
 				08129CE0225B37D5007405C9 /* ProxyPattern.app */,
 				08E872F4225C8B7100CF35D8 /* ChainResPattern.app */,
 				081F1D23225F6B2600D85860 /* CommandPattern.app */,
+				0850903E2265CB4000756DCA /* InterpreterPattern.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1250,6 +1330,23 @@
 			productReference = 084B07762244B53A00C2E028 /* CompositePattern.app */;
 			productType = "com.apple.product-type.application";
 		};
+		0850903D2265CB4000756DCA /* InterpreterPattern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 085090512265CB4200756DCA /* Build configuration list for PBXNativeTarget "InterpreterPattern" */;
+			buildPhases = (
+				0850903A2265CB4000756DCA /* Sources */,
+				0850903B2265CB4000756DCA /* Frameworks */,
+				0850903C2265CB4000756DCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InterpreterPattern;
+			productName = InterpreterPattern;
+			productReference = 0850903E2265CB4000756DCA /* InterpreterPattern.app */;
+			productType = "com.apple.product-type.application";
+		};
 		085F5F57223F382700CCB31A /* DesignPatterns */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 085F5F6E223F382A00CCB31A /* Build configuration list for PBXNativeTarget "DesignPatterns" */;
@@ -1459,6 +1556,9 @@
 					084B07752244B53A00C2E028 = {
 						CreatedOnToolsVersion = 10.1;
 					};
+					0850903D2265CB4000756DCA = {
+						CreatedOnToolsVersion = 10.2;
+					};
 					085F5F57223F382700CCB31A = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -1522,6 +1622,7 @@
 				08129CDF225B37D5007405C9 /* ProxyPattern */,
 				08E872F3225C8B7100CF35D8 /* ChainResPattern */,
 				081F1D22225F6B2600D85860 /* CommandPattern */,
+				0850903D2265CB4000756DCA /* InterpreterPattern */,
 			);
 		};
 /* End PBXProject section */
@@ -1564,6 +1665,16 @@
 				084B07852244B53C00C2E028 /* LaunchScreen.storyboard in Resources */,
 				084B07822244B53C00C2E028 /* Assets.xcassets in Resources */,
 				084B07802244B53A00C2E028 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0850903C2265CB4000756DCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0850904D2265CB4200756DCA /* LaunchScreen.storyboard in Resources */,
+				0850904A2265CB4200756DCA /* Assets.xcassets in Resources */,
+				085090482265CB4000756DCA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1734,6 +1845,22 @@
 				085CD0D5224CB86000539816 /* Composite.m in Sources */,
 				084B07882244B53C00C2E028 /* main.m in Sources */,
 				084B077A2244B53A00C2E028 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0850903A2265CB4000756DCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				085090452265CB4000756DCA /* InterpreterVC.m in Sources */,
+				0850905E2265D9BF00756DCA /* SymbolNode.m in Sources */,
+				085090642265DAF300756DCA /* ModNode.m in Sources */,
+				085090502265CB4200756DCA /* main.m in Sources */,
+				085090422265CB4000756DCA /* AppDelegate.m in Sources */,
+				085090672265DB0B00756DCA /* DivNode.m in Sources */,
+				085090582265D8C900756DCA /* Node.m in Sources */,
+				0850905B2265D8FE00756DCA /* ValueNode.m in Sources */,
+				085090612265DA5D00756DCA /* MulNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1961,6 +2088,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				084B07842244B53C00C2E028 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		085090462265CB4000756DCA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				085090472265CB4000756DCA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0850904B2265CB4200756DCA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0850904C2265CB4200756DCA /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -2255,6 +2398,40 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zuhe.CompositePattern;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		085090522265CB4200756DCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InterpreterPattern/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zuhe.InterpreterPattern;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		085090532265CB4200756DCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InterpreterPattern/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zuhe.InterpreterPattern;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -2769,6 +2946,15 @@
 			buildConfigurations = (
 				084B07892244B53C00C2E028 /* Debug */,
 				084B078A2244B53C00C2E028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		085090512265CB4200756DCA /* Build configuration list for PBXNativeTarget "InterpreterPattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				085090522265CB4200756DCA /* Debug */,
+				085090532265CB4200756DCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
