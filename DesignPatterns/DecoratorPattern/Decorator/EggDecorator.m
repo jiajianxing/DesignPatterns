@@ -10,12 +10,6 @@
 
 @implementation EggDecorator
 
-+ (instancetype)decoratorWithComponent:(AbPancake *)pancake
-{
-    EggDecorator *ham = [[EggDecorator alloc] init];
-    ham.pancake = pancake;
-    return ham;
-}
 - (void)cook
 {
     NSLog(@"加一个鸡蛋");

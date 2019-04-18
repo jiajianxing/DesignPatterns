@@ -10,13 +10,6 @@
 
 @implementation HamDecorator
 
-+ (instancetype)decoratorWithComponent:(AbPancake *)pancake
-{
-    HamDecorator *ham = [[HamDecorator alloc] init];
-    ham.pancake = pancake;
-    return ham;
-}
-
 - (void)cook
 {
     NSLog(@"加了火腿");

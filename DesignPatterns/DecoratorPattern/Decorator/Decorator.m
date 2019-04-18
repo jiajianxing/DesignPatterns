@@ -17,7 +17,7 @@
 
 + (instancetype)decoratorWithComponent:(AbPancake *)pancake
 {
-    Decorator *decorator = [[Decorator alloc] init];
+    Decorator *decorator = [[[self class] alloc] init];
     decorator.pancake = pancake;
     return decorator;
 }

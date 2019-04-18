@@ -25,7 +25,7 @@
     Node *left = nil;
     Node *right = nil;
     NSMutableArray *nodeArr = [NSMutableArray array];
-    NSString *str = @"3 * 4 / 2";
+    NSString *str = @"3 * 4 / 2 % 4";
     NSArray *stateArr = [str componentsSeparatedByString:@" "];
     for (int i = 0; i < stateArr.count; i++) {
         if ([stateArr[i] isEqualToString:@"*"]) {

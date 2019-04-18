@@ -9,13 +9,6 @@
 #import "DivNode.h"
 
 @implementation DivNode
-+ (instancetype)symbolNodeWithLeft:(Node *)left right:(Node *)right
-{
-    DivNode *node = [[DivNode alloc] init];
-    node.leftN = left;
-    node.rightN = right;
-    return node;
-}
 
 - (int)interpret
 {

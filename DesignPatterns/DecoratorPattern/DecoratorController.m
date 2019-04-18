@@ -28,7 +28,8 @@
     AbPancake *ipancake = [[IPancake alloc] init];
     AbPancake *egg = [EggDecorator decoratorWithComponent:ipancake];
     AbPancake *ham = [HamDecorator decoratorWithComponent:egg];
-    [ham cook];
+    AbPancake *lett = [LettDecorator decoratorWithComponent:ham];
+    [lett cook];
 }
 
 

@@ -9,13 +9,7 @@
 #import "MulNode.h"
 
 @implementation MulNode
-+ (instancetype)symbolNodeWithLeft:(Node *)left right:(Node *)right
-{
-    MulNode *node = [[MulNode alloc] init];
-    node.leftN = left;
-    node.rightN = right;
-    return node;
-}
+
 - (int)interpret
 {
     return self.leftN.interpret * self.rightN.interpret;

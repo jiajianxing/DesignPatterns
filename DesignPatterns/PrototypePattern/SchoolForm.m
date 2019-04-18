@@ -42,6 +42,7 @@
 
 - (id)copyWithZone:(NSZone *)zone
 {
+    //使用[self class]是因为我们希望其子类也能够复用这个复制方法,要是直接使用[SchoolForm class],其子类就只会返回SchoolForm而不是它的实际类型的副本
     SchoolForm *form = [[[self class] allocWithZone:zone] init:self.name address:self.address];
     for (id<Form> tform in self.relatedForm) {
         [form.relatedForm addObject:[tform copy]];

@@ -9,13 +9,6 @@
 #import "ModNode.h"
 
 @implementation ModNode
-+ (instancetype)symbolNodeWithLeft:(Node *)left right:(Node *)right
-{
-    ModNode *node = [[ModNode alloc] init];
-    node.leftN = left;
-    node.rightN = right;
-    return node;
-}
 
 - (int)interpret
 {

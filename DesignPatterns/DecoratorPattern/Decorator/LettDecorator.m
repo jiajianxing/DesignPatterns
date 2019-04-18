@@ -10,12 +10,6 @@
 
 @implementation LettDecorator
 
-+ (instancetype)decoratorWithComponent:(AbPancake *)pancake
-{
-    LettDecorator *ham = [[LettDecorator alloc] init];
-    ham.pancake = pancake;
-    return ham;
-}
 - (void)cook
 {
     NSLog(@"加了蔬菜");

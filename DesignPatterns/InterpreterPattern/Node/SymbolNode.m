@@ -16,7 +16,7 @@
 
 + (instancetype)symbolNodeWithLeft:(Node *)left right:(Node *)right
 {
-    SymbolNode *node = [[SymbolNode alloc] init];
+    SymbolNode *node = [[[self class] alloc] init];
     node.leftN = left;
     node.rightN = right;
     return node;
