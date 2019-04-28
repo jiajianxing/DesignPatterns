@@ -33,6 +33,12 @@
 		082B449B2272E8780086CD2C /* ConcreteMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 082B449A2272E8780086CD2C /* ConcreteMediator.m */; };
 		082B449E2272E9530086CD2C /* ConcreteColleague1.m in Sources */ = {isa = PBXBuildFile; fileRef = 082B449D2272E9530086CD2C /* ConcreteColleague1.m */; };
 		082B44A12272E95D0086CD2C /* ConcreteColleague2.m in Sources */ = {isa = PBXBuildFile; fileRef = 082B44A02272E95D0086CD2C /* ConcreteColleague2.m */; };
+		082B44AA2273048A0086CD2C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 082B44A92273048A0086CD2C /* AppDelegate.m */; };
+		082B44AD2273048A0086CD2C /* MementoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 082B44AC2273048A0086CD2C /* MementoController.m */; };
+		082B44B02273048A0086CD2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 082B44AE2273048A0086CD2C /* Main.storyboard */; };
+		082B44B22273048B0086CD2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 082B44B12273048B0086CD2C /* Assets.xcassets */; };
+		082B44B52273048B0086CD2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 082B44B32273048B0086CD2C /* LaunchScreen.storyboard */; };
+		082B44B82273048B0086CD2C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 082B44B72273048B0086CD2C /* main.m */; };
 		0833D158223F8B0400C35D94 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0833D157223F8B0400C35D94 /* AppDelegate.m */; };
 		0833D15B223F8B0400C35D94 /* BuilderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0833D15A223F8B0400C35D94 /* BuilderController.m */; };
 		0833D15E223F8B0400C35D94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0833D15C223F8B0400C35D94 /* Main.storyboard */; };
@@ -185,6 +191,10 @@
 		08E87313225C971D00CF35D8 /* DepartmentDirector.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E87312225C971D00CF35D8 /* DepartmentDirector.m */; };
 		08E87316225C973800CF35D8 /* GeneralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E87315225C973800CF35D8 /* GeneralManager.m */; };
 		08E87319225CA08300CF35D8 /* RequestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E87318225CA08300CF35D8 /* RequestModel.m */; };
+		08F31434227550E500421DD3 /* MementoCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F31433227550E500421DD3 /* MementoCenter.m */; };
+		08F31438227551A600421DD3 /* FastCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F31436227551A600421DD3 /* FastCoder.m */; };
+		08F3143B2275530C00421DD3 /* People.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F3143A2275530C00421DD3 /* People.m */; };
+		08F3143E2275715900421DD3 /* NSObject+MementoCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F3143D2275715900421DD3 /* NSObject+MementoCenter.m */; };
 		08F7F1E42243936E007D4021 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F7F1E32243936E007D4021 /* AppDelegate.m */; };
 		08F7F1E72243936E007D4021 /* FilterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F7F1E62243936E007D4021 /* FilterController.m */; };
 		08F7F1EA2243936E007D4021 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08F7F1E82243936E007D4021 /* Main.storyboard */; };
@@ -247,6 +257,16 @@
 		082B449D2272E9530086CD2C /* ConcreteColleague1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConcreteColleague1.m; sourceTree = "<group>"; };
 		082B449F2272E95D0086CD2C /* ConcreteColleague2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConcreteColleague2.h; sourceTree = "<group>"; };
 		082B44A02272E95D0086CD2C /* ConcreteColleague2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConcreteColleague2.m; sourceTree = "<group>"; };
+		082B44A62273048A0086CD2C /* MementoPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MementoPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		082B44A82273048A0086CD2C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		082B44A92273048A0086CD2C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		082B44AB2273048A0086CD2C /* MementoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MementoController.h; sourceTree = "<group>"; };
+		082B44AC2273048A0086CD2C /* MementoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MementoController.m; sourceTree = "<group>"; };
+		082B44AF2273048A0086CD2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		082B44B12273048B0086CD2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		082B44B42273048B0086CD2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		082B44B62273048B0086CD2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		082B44B72273048B0086CD2C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0833D154223F8B0400C35D94 /* BuilderPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuilderPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0833D156223F8B0400C35D94 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0833D157223F8B0400C35D94 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -529,6 +549,15 @@
 		08E87315225C973800CF35D8 /* GeneralManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeneralManager.m; sourceTree = "<group>"; };
 		08E87317225CA08300CF35D8 /* RequestModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RequestModel.h; sourceTree = "<group>"; };
 		08E87318225CA08300CF35D8 /* RequestModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RequestModel.m; sourceTree = "<group>"; };
+		08F314312275506600421DD3 /* MementoCenterProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MementoCenterProtocol.h; sourceTree = "<group>"; };
+		08F31432227550E500421DD3 /* MementoCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MementoCenter.h; sourceTree = "<group>"; };
+		08F31433227550E500421DD3 /* MementoCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MementoCenter.m; sourceTree = "<group>"; };
+		08F31436227551A600421DD3 /* FastCoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FastCoder.m; sourceTree = "<group>"; };
+		08F31437227551A600421DD3 /* FastCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FastCoder.h; sourceTree = "<group>"; };
+		08F314392275530C00421DD3 /* People.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = People.h; sourceTree = "<group>"; };
+		08F3143A2275530C00421DD3 /* People.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = People.m; sourceTree = "<group>"; };
+		08F3143C2275715900421DD3 /* NSObject+MementoCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+MementoCenter.h"; sourceTree = "<group>"; };
+		08F3143D2275715900421DD3 /* NSObject+MementoCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MementoCenter.m"; sourceTree = "<group>"; };
 		08F7F1E02243936E007D4021 /* FilterPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FilterPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08F7F1E22243936E007D4021 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		08F7F1E32243936E007D4021 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -569,6 +598,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		082B44782272A0190086CD2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		082B44A32273048A0086CD2C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -763,6 +799,27 @@
 				082B44A02272E95D0086CD2C /* ConcreteColleague2.m */,
 			);
 			path = Colleague;
+			sourceTree = "<group>";
+		};
+		082B44A72273048A0086CD2C /* MementoPattern(备忘录模式) */ = {
+			isa = PBXGroup;
+			children = (
+				08F314352275519300421DD3 /* FastCoder */,
+				08F314302275501D00421DD3 /* Memento */,
+				082B44A82273048A0086CD2C /* AppDelegate.h */,
+				082B44A92273048A0086CD2C /* AppDelegate.m */,
+				082B44AB2273048A0086CD2C /* MementoController.h */,
+				082B44AC2273048A0086CD2C /* MementoController.m */,
+				08F314392275530C00421DD3 /* People.h */,
+				08F3143A2275530C00421DD3 /* People.m */,
+				082B44AE2273048A0086CD2C /* Main.storyboard */,
+				082B44B12273048B0086CD2C /* Assets.xcassets */,
+				082B44B32273048B0086CD2C /* LaunchScreen.storyboard */,
+				082B44B62273048B0086CD2C /* Info.plist */,
+				082B44B72273048B0086CD2C /* main.m */,
+			);
+			name = "MementoPattern(备忘录模式)";
+			path = MementoPattern;
 			sourceTree = "<group>";
 		};
 		0833D155223F8B0400C35D94 /* BuilderPattern(建造者模式) */ = {
@@ -973,6 +1030,7 @@
 				0850903F2265CB4000756DCA /* InterpreterPattern(解释器模式) */,
 				083F7F2B22718DF000954587 /* IteratorPattern(迭代器模式) */,
 				082B447C2272A0190086CD2C /* MediatorPattern(中介者模式) */,
+				082B44A72273048A0086CD2C /* MementoPattern(备忘录模式) */,
 				085F5F59223F382700CCB31A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -998,6 +1056,7 @@
 				0850903E2265CB4000756DCA /* InterpreterPattern.app */,
 				083F7F2A22718DF000954587 /* IteratorPattern.app */,
 				082B447B2272A0190086CD2C /* MediatorPattern.app */,
+				082B44A62273048A0086CD2C /* MementoPattern.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1372,6 +1431,27 @@
 			path = Handler;
 			sourceTree = "<group>";
 		};
+		08F314302275501D00421DD3 /* Memento */ = {
+			isa = PBXGroup;
+			children = (
+				08F314312275506600421DD3 /* MementoCenterProtocol.h */,
+				08F31432227550E500421DD3 /* MementoCenter.h */,
+				08F31433227550E500421DD3 /* MementoCenter.m */,
+				08F3143C2275715900421DD3 /* NSObject+MementoCenter.h */,
+				08F3143D2275715900421DD3 /* NSObject+MementoCenter.m */,
+			);
+			path = Memento;
+			sourceTree = "<group>";
+		};
+		08F314352275519300421DD3 /* FastCoder */ = {
+			isa = PBXGroup;
+			children = (
+				08F31437227551A600421DD3 /* FastCoder.h */,
+				08F31436227551A600421DD3 /* FastCoder.m */,
+			);
+			path = FastCoder;
+			sourceTree = "<group>";
+		};
 		08F7F1E12243936E007D4021 /* FilterPattern(过滤器模式) */ = {
 			isa = PBXGroup;
 			children = (
@@ -1461,6 +1541,23 @@
 			name = MediatorPattern;
 			productName = MediatorPattern;
 			productReference = 082B447B2272A0190086CD2C /* MediatorPattern.app */;
+			productType = "com.apple.product-type.application";
+		};
+		082B44A52273048A0086CD2C /* MementoPattern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 082B44B92273048B0086CD2C /* Build configuration list for PBXNativeTarget "MementoPattern" */;
+			buildPhases = (
+				082B44A22273048A0086CD2C /* Sources */,
+				082B44A32273048A0086CD2C /* Frameworks */,
+				082B44A42273048A0086CD2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MementoPattern;
+			productName = MementoPattern;
+			productReference = 082B44A62273048A0086CD2C /* MementoPattern.app */;
 			productType = "com.apple.product-type.application";
 		};
 		0833D153223F8B0400C35D94 /* BuilderPattern */ = {
@@ -1737,6 +1834,9 @@
 					082B447A2272A0190086CD2C = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					082B44A52273048A0086CD2C = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 					0833D153223F8B0400C35D94 = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -1815,6 +1915,7 @@
 				0850903D2265CB4000756DCA /* InterpreterPattern */,
 				083F7F2922718DF000954587 /* IteratorPattern */,
 				082B447A2272A0190086CD2C /* MediatorPattern */,
+				082B44A52273048A0086CD2C /* MementoPattern */,
 			);
 		};
 /* End PBXProject section */
@@ -1847,6 +1948,16 @@
 				082B448A2272A01B0086CD2C /* LaunchScreen.storyboard in Resources */,
 				082B44872272A01B0086CD2C /* Assets.xcassets in Resources */,
 				082B44852272A0190086CD2C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		082B44A42273048A0086CD2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				082B44B52273048B0086CD2C /* LaunchScreen.storyboard in Resources */,
+				082B44B22273048B0086CD2C /* Assets.xcassets in Resources */,
+				082B44B02273048A0086CD2C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2037,6 +2148,20 @@
 				082B44A12272E95D0086CD2C /* ConcreteColleague2.m in Sources */,
 				082B447F2272A0190086CD2C /* AppDelegate.m in Sources */,
 				082B449B2272E8780086CD2C /* ConcreteMediator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		082B44A22273048A0086CD2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08F3143B2275530C00421DD3 /* People.m in Sources */,
+				08F31434227550E500421DD3 /* MementoCenter.m in Sources */,
+				082B44AD2273048A0086CD2C /* MementoController.m in Sources */,
+				082B44B82273048B0086CD2C /* main.m in Sources */,
+				08F31438227551A600421DD3 /* FastCoder.m in Sources */,
+				082B44AA2273048A0086CD2C /* AppDelegate.m in Sources */,
+				08F3143E2275715900421DD3 /* NSObject+MementoCenter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2312,6 +2437,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				082B44892272A01B0086CD2C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		082B44AE2273048A0086CD2C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				082B44AF2273048A0086CD2C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		082B44B32273048B0086CD2C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				082B44B42273048B0086CD2C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -2640,6 +2781,40 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zuhe.MediatorPattern;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		082B44BA2273048B0086CD2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MementoPattern/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zuhe.MementoPattern;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		082B44BB2273048B0086CD2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MementoPattern/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zuhe.MementoPattern;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -3277,6 +3452,15 @@
 			buildConfigurations = (
 				082B448E2272A01B0086CD2C /* Debug */,
 				082B448F2272A01B0086CD2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		082B44B92273048B0086CD2C /* Build configuration list for PBXNativeTarget "MementoPattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				082B44BA2273048B0086CD2C /* Debug */,
+				082B44BB2273048B0086CD2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
