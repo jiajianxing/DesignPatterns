@@ -203,6 +203,18 @@
 		08F314B22276959600421DD3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F314B12276959600421DD3 /* main.m */; };
 		08F314BA2276A32900421DD3 /* SubscribeCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F314B92276A32900421DD3 /* SubscribeCenter.m */; };
 		08F314BD2276C4A000421DD3 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F314BC2276C4A000421DD3 /* Animal.m */; };
+		08F314C62276D94100421DD3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F314C52276D94100421DD3 /* AppDelegate.m */; };
+		08F314C92276D94100421DD3 /* StateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F314C82276D94100421DD3 /* StateController.m */; };
+		08F314CC2276D94100421DD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08F314CA2276D94100421DD3 /* Main.storyboard */; };
+		08F314CE2276D94200421DD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08F314CD2276D94200421DD3 /* Assets.xcassets */; };
+		08F314D12276D94200421DD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08F314CF2276D94200421DD3 /* LaunchScreen.storyboard */; };
+		08F314D42276D94200421DD3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F314D32276D94200421DD3 /* main.m */; };
+		08F314DB2276F49600421DD3 /* NormalState.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F314DA2276F49600421DD3 /* NormalState.m */; };
+		08F314DF2276F50B00421DD3 /* VoteState.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F314DE2276F50B00421DD3 /* VoteState.m */; };
+		08F314E22276F5EB00421DD3 /* RepeatState.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F314E12276F5EB00421DD3 /* RepeatState.m */; };
+		08F314E52276F61C00421DD3 /* SpiteState.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F314E42276F61C00421DD3 /* SpiteState.m */; };
+		08F314E82276F64C00421DD3 /* BlackState.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F314E72276F64C00421DD3 /* BlackState.m */; };
+		08F314EB2276F67500421DD3 /* VoteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F314EA2276F67500421DD3 /* VoteManager.m */; };
 		08F7F1E42243936E007D4021 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F7F1E32243936E007D4021 /* AppDelegate.m */; };
 		08F7F1E72243936E007D4021 /* FilterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F7F1E62243936E007D4021 /* FilterController.m */; };
 		08F7F1EA2243936E007D4021 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08F7F1E82243936E007D4021 /* Main.storyboard */; };
@@ -581,6 +593,28 @@
 		08F314B92276A32900421DD3 /* SubscribeCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubscribeCenter.m; sourceTree = "<group>"; };
 		08F314BB2276C4A000421DD3 /* Animal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
 		08F314BC2276C4A000421DD3 /* Animal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
+		08F314C22276D94100421DD3 /* StatePattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StatePattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08F314C42276D94100421DD3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		08F314C52276D94100421DD3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		08F314C72276D94100421DD3 /* StateController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StateController.h; sourceTree = "<group>"; };
+		08F314C82276D94100421DD3 /* StateController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StateController.m; sourceTree = "<group>"; };
+		08F314CB2276D94100421DD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		08F314CD2276D94200421DD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		08F314D02276D94200421DD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		08F314D22276D94200421DD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08F314D32276D94200421DD3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		08F314D92276F49600421DD3 /* NormalState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NormalState.h; sourceTree = "<group>"; };
+		08F314DA2276F49600421DD3 /* NormalState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NormalState.m; sourceTree = "<group>"; };
+		08F314DD2276F50B00421DD3 /* VoteState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VoteState.h; sourceTree = "<group>"; };
+		08F314DE2276F50B00421DD3 /* VoteState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoteState.m; sourceTree = "<group>"; };
+		08F314E02276F5EB00421DD3 /* RepeatState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RepeatState.h; sourceTree = "<group>"; };
+		08F314E12276F5EB00421DD3 /* RepeatState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RepeatState.m; sourceTree = "<group>"; };
+		08F314E32276F61C00421DD3 /* SpiteState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpiteState.h; sourceTree = "<group>"; };
+		08F314E42276F61C00421DD3 /* SpiteState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpiteState.m; sourceTree = "<group>"; };
+		08F314E62276F64C00421DD3 /* BlackState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlackState.h; sourceTree = "<group>"; };
+		08F314E72276F64C00421DD3 /* BlackState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlackState.m; sourceTree = "<group>"; };
+		08F314E92276F67500421DD3 /* VoteManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VoteManager.h; sourceTree = "<group>"; };
+		08F314EA2276F67500421DD3 /* VoteManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoteManager.m; sourceTree = "<group>"; };
 		08F7F1E02243936E007D4021 /* FilterPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FilterPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08F7F1E22243936E007D4021 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		08F7F1E32243936E007D4021 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -733,6 +767,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		08F3149D2276959500421DD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08F314BF2276D94100421DD3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1062,6 +1103,7 @@
 				082B447C2272A0190086CD2C /* MediatorPattern(中介者模式) */,
 				082B44A72273048A0086CD2C /* MementoPattern(备忘录模式) */,
 				08F314A12276959500421DD3 /* ObserverPattern(观察者模式) */,
+				08F314C32276D94100421DD3 /* StatePattern(状态模式) */,
 				085F5F59223F382700CCB31A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1089,6 +1131,7 @@
 				082B447B2272A0190086CD2C /* MediatorPattern.app */,
 				082B44A62273048A0086CD2C /* MementoPattern.app */,
 				08F314A02276959500421DD3 /* ObserverPattern.app */,
+				08F314C22276D94100421DD3 /* StatePattern.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1514,6 +1557,43 @@
 			path = Observer;
 			sourceTree = "<group>";
 		};
+		08F314C32276D94100421DD3 /* StatePattern(状态模式) */ = {
+			isa = PBXGroup;
+			children = (
+				08F314D82276F47100421DD3 /* State */,
+				08F314C42276D94100421DD3 /* AppDelegate.h */,
+				08F314C52276D94100421DD3 /* AppDelegate.m */,
+				08F314C72276D94100421DD3 /* StateController.h */,
+				08F314C82276D94100421DD3 /* StateController.m */,
+				08F314E92276F67500421DD3 /* VoteManager.h */,
+				08F314EA2276F67500421DD3 /* VoteManager.m */,
+				08F314CA2276D94100421DD3 /* Main.storyboard */,
+				08F314CD2276D94200421DD3 /* Assets.xcassets */,
+				08F314CF2276D94200421DD3 /* LaunchScreen.storyboard */,
+				08F314D22276D94200421DD3 /* Info.plist */,
+				08F314D32276D94200421DD3 /* main.m */,
+			);
+			name = "StatePattern(状态模式)";
+			path = StatePattern;
+			sourceTree = "<group>";
+		};
+		08F314D82276F47100421DD3 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				08F314D92276F49600421DD3 /* NormalState.h */,
+				08F314DA2276F49600421DD3 /* NormalState.m */,
+				08F314E02276F5EB00421DD3 /* RepeatState.h */,
+				08F314E12276F5EB00421DD3 /* RepeatState.m */,
+				08F314E32276F61C00421DD3 /* SpiteState.h */,
+				08F314E42276F61C00421DD3 /* SpiteState.m */,
+				08F314E62276F64C00421DD3 /* BlackState.h */,
+				08F314E72276F64C00421DD3 /* BlackState.m */,
+				08F314DD2276F50B00421DD3 /* VoteState.h */,
+				08F314DE2276F50B00421DD3 /* VoteState.m */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
 		08F7F1E12243936E007D4021 /* FilterPattern(过滤器模式) */ = {
 			isa = PBXGroup;
 			children = (
@@ -1877,6 +1957,23 @@
 			productReference = 08F314A02276959500421DD3 /* ObserverPattern.app */;
 			productType = "com.apple.product-type.application";
 		};
+		08F314C12276D94100421DD3 /* StatePattern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08F314D52276D94200421DD3 /* Build configuration list for PBXNativeTarget "StatePattern" */;
+			buildPhases = (
+				08F314BE2276D94100421DD3 /* Sources */,
+				08F314BF2276D94100421DD3 /* Frameworks */,
+				08F314C02276D94100421DD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StatePattern;
+			productName = StatePattern;
+			productReference = 08F314C22276D94100421DD3 /* StatePattern.app */;
+			productType = "com.apple.product-type.application";
+		};
 		08F7F1DF2243936E007D4021 /* FilterPattern */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 08F7F1F522439370007D4021 /* Build configuration list for PBXNativeTarget "FilterPattern" */;
@@ -1961,6 +2058,9 @@
 					08F3149F2276959500421DD3 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					08F314C12276D94100421DD3 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 					08F7F1DF2243936E007D4021 = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -1999,6 +2099,7 @@
 				082B447A2272A0190086CD2C /* MediatorPattern */,
 				082B44A52273048A0086CD2C /* MementoPattern */,
 				08F3149F2276959500421DD3 /* ObserverPattern */,
+				08F314C12276D94100421DD3 /* StatePattern */,
 			);
 		};
 /* End PBXProject section */
@@ -2188,6 +2289,16 @@
 				08F314AF2276959600421DD3 /* LaunchScreen.storyboard in Resources */,
 				08F314AC2276959600421DD3 /* Assets.xcassets in Resources */,
 				08F314AA2276959500421DD3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08F314C02276D94100421DD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08F314D12276D94200421DD3 /* LaunchScreen.storyboard in Resources */,
+				08F314CE2276D94200421DD3 /* Assets.xcassets in Resources */,
+				08F314CC2276D94100421DD3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2476,6 +2587,22 @@
 				08F314BD2276C4A000421DD3 /* Animal.m in Sources */,
 				08F314A42276959500421DD3 /* AppDelegate.m in Sources */,
 				08F314BA2276A32900421DD3 /* SubscribeCenter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08F314BE2276D94100421DD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08F314C92276D94100421DD3 /* StateController.m in Sources */,
+				08F314D42276D94200421DD3 /* main.m in Sources */,
+				08F314DF2276F50B00421DD3 /* VoteState.m in Sources */,
+				08F314EB2276F67500421DD3 /* VoteManager.m in Sources */,
+				08F314E52276F61C00421DD3 /* SpiteState.m in Sources */,
+				08F314DB2276F49600421DD3 /* NormalState.m in Sources */,
+				08F314E82276F64C00421DD3 /* BlackState.m in Sources */,
+				08F314E22276F5EB00421DD3 /* RepeatState.m in Sources */,
+				08F314C62276D94100421DD3 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2782,6 +2909,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				08F314AE2276959600421DD3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		08F314CA2276D94100421DD3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08F314CB2276D94100421DD3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		08F314CF2276D94200421DD3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08F314D02276D94200421DD3 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -3549,6 +3692,40 @@
 			};
 			name = Release;
 		};
+		08F314D62276D94200421DD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StatePattern/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zuhe.StatePattern;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		08F314D72276D94200421DD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StatePattern/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zuhe.StatePattern;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		08F7F1F322439370007D4021 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -3760,6 +3937,15 @@
 			buildConfigurations = (
 				08F314B42276959600421DD3 /* Debug */,
 				08F314B52276959600421DD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08F314D52276D94200421DD3 /* Build configuration list for PBXNativeTarget "StatePattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08F314D62276D94200421DD3 /* Debug */,
+				08F314D72276D94200421DD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
