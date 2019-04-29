@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1010"
+   LastUpgradeVersion = "1020"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "085F5F57223F382700CCB31A"
-               BuildableName = "DesignPatterns.app"
-               BlueprintName = "DesignPatterns"
+               BlueprintIdentifier = "081F1D22225F6B2600D85860"
+               BuildableName = "CommandPattern.app"
+               BlueprintName = "CommandPattern"
                ReferencedContainer = "container:DesignPatterns.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "085F5F57223F382700CCB31A"
-            BuildableName = "DesignPatterns.app"
-            BlueprintName = "DesignPatterns"
+            BlueprintIdentifier = "081F1D22225F6B2600D85860"
+            BuildableName = "CommandPattern.app"
+            BlueprintName = "CommandPattern"
             ReferencedContainer = "container:DesignPatterns.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -55,9 +55,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "085F5F57223F382700CCB31A"
-            BuildableName = "DesignPatterns.app"
-            BlueprintName = "DesignPatterns"
+            BlueprintIdentifier = "081F1D22225F6B2600D85860"
+            BuildableName = "CommandPattern.app"
+            BlueprintName = "CommandPattern"
             ReferencedContainer = "container:DesignPatterns.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -74,9 +74,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "085F5F57223F382700CCB31A"
-            BuildableName = "DesignPatterns.app"
-            BlueprintName = "DesignPatterns"
+            BlueprintIdentifier = "081F1D22225F6B2600D85860"
+            BuildableName = "CommandPattern.app"
+            BlueprintName = "CommandPattern"
             ReferencedContainer = "container:DesignPatterns.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
