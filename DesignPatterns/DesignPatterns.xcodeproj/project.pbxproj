@@ -16,6 +16,15 @@
 		08129CEF225B37D8007405C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08129CED225B37D8007405C9 /* LaunchScreen.storyboard */; };
 		08129CF2225B37D8007405C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08129CF1225B37D8007405C9 /* main.m */; };
 		08129CFA225B3E49007405C9 /* Entrust.m in Sources */ = {isa = PBXBuildFile; fileRef = 08129CF8225B3D94007405C9 /* Entrust.m */; };
+		08170A042277EF430087E6D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08170A032277EF430087E6D3 /* AppDelegate.m */; };
+		08170A072277EF430087E6D3 /* TemplateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08170A062277EF430087E6D3 /* TemplateController.m */; };
+		08170A0A2277EF430087E6D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08170A082277EF430087E6D3 /* Main.storyboard */; };
+		08170A0C2277EF450087E6D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08170A0B2277EF450087E6D3 /* Assets.xcassets */; };
+		08170A0F2277EF450087E6D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08170A0D2277EF450087E6D3 /* LaunchScreen.storyboard */; };
+		08170A122277EF450087E6D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08170A112277EF450087E6D3 /* main.m */; };
+		08170A192277EFD60087E6D3 /* GTPaper.m in Sources */ = {isa = PBXBuildFile; fileRef = 08170A182277EFD60087E6D3 /* GTPaper.m */; };
+		08170A1C2277F17F0087E6D3 /* GTPagerA.m in Sources */ = {isa = PBXBuildFile; fileRef = 08170A1B2277F17F0087E6D3 /* GTPagerA.m */; };
+		08170A1F2277F1C20087E6D3 /* GTPagerB.m in Sources */ = {isa = PBXBuildFile; fileRef = 08170A1E2277F1C20087E6D3 /* GTPagerB.m */; };
 		081F1D27225F6B2600D85860 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 081F1D26225F6B2600D85860 /* AppDelegate.m */; };
 		081F1D2A225F6B2600D85860 /* CommandController.m in Sources */ = {isa = PBXBuildFile; fileRef = 081F1D29225F6B2600D85860 /* CommandController.m */; };
 		081F1D2D225F6B2600D85860 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 081F1D2B225F6B2600D85860 /* Main.storyboard */; };
@@ -247,6 +256,22 @@
 		08129CF6225B3CE0007405C9 /* GTProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTProxy.h; sourceTree = "<group>"; };
 		08129CF7225B3D94007405C9 /* Entrust.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Entrust.h; sourceTree = "<group>"; };
 		08129CF8225B3D94007405C9 /* Entrust.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Entrust.m; sourceTree = "<group>"; };
+		08170A002277EF430087E6D3 /* TemplatePattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TemplatePattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08170A022277EF430087E6D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		08170A032277EF430087E6D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		08170A052277EF430087E6D3 /* TemplateController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TemplateController.h; sourceTree = "<group>"; };
+		08170A062277EF430087E6D3 /* TemplateController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TemplateController.m; sourceTree = "<group>"; };
+		08170A092277EF430087E6D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		08170A0B2277EF450087E6D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		08170A0E2277EF450087E6D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		08170A102277EF450087E6D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08170A112277EF450087E6D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		08170A172277EFD60087E6D3 /* GTPaper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTPaper.h; sourceTree = "<group>"; };
+		08170A182277EFD60087E6D3 /* GTPaper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTPaper.m; sourceTree = "<group>"; };
+		08170A1A2277F17F0087E6D3 /* GTPagerA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTPagerA.h; sourceTree = "<group>"; };
+		08170A1B2277F17F0087E6D3 /* GTPagerA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTPagerA.m; sourceTree = "<group>"; };
+		08170A1D2277F1C20087E6D3 /* GTPagerB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTPagerB.h; sourceTree = "<group>"; };
+		08170A1E2277F1C20087E6D3 /* GTPagerB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTPagerB.m; sourceTree = "<group>"; };
 		081F1D23225F6B2600D85860 /* CommandPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CommandPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		081F1D25225F6B2600D85860 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		081F1D26225F6B2600D85860 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -647,6 +672,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		081709FD2277EF430087E6D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		081F1D20225F6B2600D85860 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -808,6 +840,37 @@
 			);
 			name = "ProxyPattern(代理模式)";
 			path = ProxyPattern;
+			sourceTree = "<group>";
+		};
+		08170A012277EF430087E6D3 /* TemplatePattern(模板模式) */ = {
+			isa = PBXGroup;
+			children = (
+				08170A162277EFB20087E6D3 /* Class */,
+				08170A022277EF430087E6D3 /* AppDelegate.h */,
+				08170A032277EF430087E6D3 /* AppDelegate.m */,
+				08170A052277EF430087E6D3 /* TemplateController.h */,
+				08170A062277EF430087E6D3 /* TemplateController.m */,
+				08170A082277EF430087E6D3 /* Main.storyboard */,
+				08170A0B2277EF450087E6D3 /* Assets.xcassets */,
+				08170A0D2277EF450087E6D3 /* LaunchScreen.storyboard */,
+				08170A102277EF450087E6D3 /* Info.plist */,
+				08170A112277EF450087E6D3 /* main.m */,
+			);
+			name = "TemplatePattern(模板模式)";
+			path = TemplatePattern;
+			sourceTree = "<group>";
+		};
+		08170A162277EFB20087E6D3 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				08170A172277EFD60087E6D3 /* GTPaper.h */,
+				08170A182277EFD60087E6D3 /* GTPaper.m */,
+				08170A1A2277F17F0087E6D3 /* GTPagerA.h */,
+				08170A1B2277F17F0087E6D3 /* GTPagerA.m */,
+				08170A1D2277F1C20087E6D3 /* GTPagerB.h */,
+				08170A1E2277F1C20087E6D3 /* GTPagerB.m */,
+			);
+			path = Class;
 			sourceTree = "<group>";
 		};
 		081F1D24225F6B2600D85860 /* CommandPattern(命令模式) */ = {
@@ -1104,6 +1167,7 @@
 				082B44A72273048A0086CD2C /* MementoPattern(备忘录模式) */,
 				08F314A12276959500421DD3 /* ObserverPattern(观察者模式) */,
 				08F314C32276D94100421DD3 /* StatePattern(状态模式) */,
+				08170A012277EF430087E6D3 /* TemplatePattern(模板模式) */,
 				085F5F59223F382700CCB31A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1132,6 +1196,7 @@
 				082B44A62273048A0086CD2C /* MementoPattern.app */,
 				08F314A02276959500421DD3 /* ObserverPattern.app */,
 				08F314C22276D94100421DD3 /* StatePattern.app */,
+				08170A002277EF430087E6D3 /* TemplatePattern.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1651,6 +1716,23 @@
 			productReference = 08129CE0225B37D5007405C9 /* ProxyPattern.app */;
 			productType = "com.apple.product-type.application";
 		};
+		081709FF2277EF430087E6D3 /* TemplatePattern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08170A152277EF450087E6D3 /* Build configuration list for PBXNativeTarget "TemplatePattern" */;
+			buildPhases = (
+				081709FC2277EF430087E6D3 /* Sources */,
+				081709FD2277EF430087E6D3 /* Frameworks */,
+				081709FE2277EF430087E6D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TemplatePattern;
+			productName = TemplatePattern;
+			productReference = 08170A002277EF430087E6D3 /* TemplatePattern.app */;
+			productType = "com.apple.product-type.application";
+		};
 		081F1D22225F6B2600D85860 /* CommandPattern */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 081F1D38225F6B2800D85860 /* Build configuration list for PBXNativeTarget "CommandPattern" */;
@@ -2004,6 +2086,9 @@
 					08129CDF225B37D5007405C9 = {
 						CreatedOnToolsVersion = 10.2;
 					};
+					081709FF2277EF430087E6D3 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 					081F1D22225F6B2600D85860 = {
 						CreatedOnToolsVersion = 10.2;
 					};
@@ -2100,6 +2185,7 @@
 				082B44A52273048A0086CD2C /* MementoPattern */,
 				08F3149F2276959500421DD3 /* ObserverPattern */,
 				08F314C12276D94100421DD3 /* StatePattern */,
+				081709FF2277EF430087E6D3 /* TemplatePattern */,
 			);
 		};
 /* End PBXProject section */
@@ -2112,6 +2198,16 @@
 				08129CEF225B37D8007405C9 /* LaunchScreen.storyboard in Resources */,
 				08129CEC225B37D8007405C9 /* Assets.xcassets in Resources */,
 				08129CEA225B37D5007405C9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		081709FE2277EF430087E6D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08170A0F2277EF450087E6D3 /* LaunchScreen.storyboard in Resources */,
+				08170A0C2277EF450087E6D3 /* Assets.xcassets in Resources */,
+				08170A0A2277EF430087E6D3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2323,6 +2419,19 @@
 				08129CFA225B3E49007405C9 /* Entrust.m in Sources */,
 				08129CF2225B37D8007405C9 /* main.m in Sources */,
 				08129CE4225B37D5007405C9 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		081709FC2277EF430087E6D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08170A072277EF430087E6D3 /* TemplateController.m in Sources */,
+				08170A1C2277F17F0087E6D3 /* GTPagerA.m in Sources */,
+				08170A122277EF450087E6D3 /* main.m in Sources */,
+				08170A042277EF430087E6D3 /* AppDelegate.m in Sources */,
+				08170A192277EFD60087E6D3 /* GTPaper.m in Sources */,
+				08170A1F2277F1C20087E6D3 /* GTPagerB.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2637,6 +2746,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				08129CEE225B37D8007405C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		08170A082277EF430087E6D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08170A092277EF430087E6D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		08170A0D2277EF450087E6D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08170A0E2277EF450087E6D3 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -2977,6 +3102,40 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zuhe.ProxyPattern;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		08170A132277EF450087E6D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TemplatePattern/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zuhe.TemplatePattern;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		08170A142277EF450087E6D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TemplatePattern/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zuhe.TemplatePattern;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -3766,6 +3925,15 @@
 			buildConfigurations = (
 				08129CF4225B37D8007405C9 /* Debug */,
 				08129CF5225B37D8007405C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08170A152277EF450087E6D3 /* Build configuration list for PBXNativeTarget "TemplatePattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08170A132277EF450087E6D3 /* Debug */,
+				08170A142277EF450087E6D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
